@@ -1,38 +1,37 @@
-Insights mapped from the transcript to the schema:
-
-a. Extracted Insights and Mapping
-- Peter is a heavy user of generative AI in his role at IPS, leveraging multiple tools (ChatGPT, Claude, Bolt, Copilot) for a range of professional tasks (research, document/image production, product support, prototyping, IT setup). Maps to Participant (role, industry, seniority), Interview (transcript and insights), Theme (workflow, goal).
-- He creates and shares custom GPTs, notably a "Community Recovery Committee Navigator" tool, for efficient info management and team enablement. Maps to Themes, LearningGoal, Signal, Quote, Insight.
-- Example use case: enabled efficient info sharing for a community, avoiding unnecessary meetings and time spent searching documents. Maps to Insight, Quote.
-- Confidence is high, but he follows a personal "always be validating" (ABV) principle, especially for critical tasks (calculations, citations). Prefers manual validation in some scenarios. Maps to Theme (barrier), Insight, Quote.
-- He has directly caught AI errors (e.g., Gemini's incorrect superannuation calculation), demonstrating active management of AI limitations. Maps to Signal, Quote, Insight.
-- Expressed desire for enablement/resources in developing more sophisticated AI tools (AI guidelines, opportunity assessment, proposal assistant, virtual consultant, presentation designer), with a virtual consultant for production/logistics as biggest impact. Maps to Theme (goal, motivation), LearningGoal, Insight, Quote.
-- Wants practical examples and enablement specific to consulting and client-facing workflows. Maps to LearningGoal, Theme.
-- Sentiment throughout is engaged and generally positive, occasional caution; sentiment values kept neutral/positive for schema compatibility.
-
-b. Mapping Explanation (per field)
-- meta: Set counts = 1, token usage and durations estimated from transcript length, as it’s first/only participant/interview.
-- participants: Created using Peter's email/name, assigned generic info where missing (seniority, role, etc.), interviewId linked.
-- topRoles/topIndustries: Inferred as "Consultant" and "Consulting/Professional Services" given use cases described.
-- themes: 
-   - workflows: heavy integration of generative AI 
-   - goals: efficiency, building custom AI solutions
-   - barriers: need for validation/trust, manual checks on AI output
-   - motivation: desire to build impact tools (virtual consultant)
-- learningGoals: Understand how experts maximize AI, what support enables tool-building, representative quote selected.
-- signals: 
-   - "Power-user archetype"—AI deeply integrated, proactive development/sharing
-   - "Active Validator"—explicitly describes trust boundaries and validation
-- insights: 
-   - Breadth of AI use
-   - Creation/sharing of custom GPTs
-   - Value of ABV approach & validation
-   - Enablement gaps for advanced consulting solutions
-- quotes: Attributed to Peter, pulled from text on validation, tools, and intended future use.
-- interviews: Interview block includes sentiment/tokens/timestamps, extracts transcript, key quoteIds.
-
-c. Provide revised JSON object
-
+// Insights mapped from the transcript to the schema:
+// 
+// a. Extracted Insights and Mapping
+// - Peter is a heavy user of generative AI in his role at IPS, leveraging multiple tools (ChatGPT, Claude, Bolt, Copilot) for a range of professional tasks (research, document/image production, product support, prototyping, IT setup). Maps to Participant (role, industry, seniority), Interview (transcript and insights), Theme (workflow, goal).
+// - He creates and shares custom GPTs, notably a "Community Recovery Committee Navigator" tool, for efficient info management and team enablement. Maps to Themes, LearningGoal, Signal, Quote, Insight.
+// - Example use case: enabled efficient info sharing for a community, avoiding unnecessary meetings and time spent searching documents. Maps to Insight, Quote.
+// - Confidence is high, but he follows a personal "always be validating" (ABV) principle, especially for critical tasks (calculations, citations). Prefers manual validation in some scenarios. Maps to Theme (barrier), Insight, Quote.
+// - He has directly caught AI errors (e.g., Gemini's incorrect superannuation calculation), demonstrating active management of AI limitations. Maps to Signal, Quote, Insight.
+// - Expressed desire for enablement/resources in developing more sophisticated AI tools (AI guidelines, opportunity assessment, proposal assistant, virtual consultant, presentation designer), with a virtual consultant for production/logistics as biggest impact. Maps to Theme (goal, motivation), LearningGoal, Insight, Quote.
+// - Wants practical examples and enablement specific to consulting and client-facing workflows. Maps to LearningGoal, Theme.
+// - Sentiment throughout is engaged and generally positive, occasional caution; sentiment values kept neutral/positive for schema compatibility.
+// 
+// b. Mapping Explanation (per field)
+// - meta: Set counts = 1, token usage and durations estimated from transcript length, as it’s first/only participant/interview.
+// - participants: Created using Peter's email/name, assigned generic info where missing (seniority, role, etc.), interviewId linked.
+// - topRoles/topIndustries: Inferred as "Consultant" and "Consulting/Professional Services" given use cases described.
+// - themes: 
+//    - workflows: heavy integration of generative AI 
+//    - goals: efficiency, building custom AI solutions
+//    - barriers: need for validation/trust, manual checks on AI output
+//    - motivation: desire to build impact tools (virtual consultant)
+// - learningGoals: Understand how experts maximize AI, what support enables tool-building, representative quote selected.
+// - signals: 
+//    - "Power-user archetype"—AI deeply integrated, proactive development/sharing
+//    - "Active Validator"—explicitly describes trust boundaries and validation
+// - insights: 
+//    - Breadth of AI use
+//    - Creation/sharing of custom GPTs
+//    - Value of ABV approach & validation
+//    - Enablement gaps for advanced consulting solutions
+// - quotes: Attributed to Peter, pulled from text on validation, tools, and intended future use.
+// - interviews: Interview block includes sentiment/tokens/timestamps, extracts transcript, key quoteIds.
+// 
+// c. Provide revised JSON object
 {
   "meta": {
     "invitedCount": 1,

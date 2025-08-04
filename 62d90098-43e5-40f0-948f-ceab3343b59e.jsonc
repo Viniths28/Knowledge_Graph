@@ -1,32 +1,31 @@
-a. List insights extracted from the transcript and how they map to each SCHEMA field:
-
-- Workflow/Day-to-Day: Business involves managing inventory, serving customers, supplier coordination, and regular community engagement (workflow theme).
-- Pain/Barrier: Securing consistent funding for community initiatives is a major challenge; grant applications are time-consuming and competitive (pain, barrier).
-- Support Experience: Participant has received local grants; used funds for equipment to boost capacity and customer service (support experience, impact).
-- Application Experience: Application generally straightforward, but financial sections challenging; need for better examples/templates (barrier, insight).
-- Motivations/Goals: Wants business advice with mentorship from Indigenous entrepreneurs, and funding for culturally relevant marketing/community work (motivation, goal).
-- Success/Impact: With effective support, would see increased engagement, sales, stronger partnerships, new strategies, and more sustainability (goal, impact).
-- Value: Mentorship, especially for marketing and cash flow, is most valuable right now; digital marketing need is prominent (motivation, theme).
-- Previous Program Exploration: Found some marketing resources, but lacked tailored tools for remote/seasonal financial planning (barrier).
-- Feature Request: Requests collaborative, customizable, seasonally aware financial planning tools, and indigenous-focused financial literacy content (goal, theme).
-- CESP Features: Strong mentorship with industry-aligned experts and digital marketing training; program should show results (recommendation, goal).
-- Success Metrics: Cites digital engagement (social/website), sales, and community collaboration as KPIs for support programs (impact, success).
-- Final Suggestions: Calls for targeted workshops on grant/financial management, and mentorship to foster community support (goal, signal, recommendation).
-
-b. Mapping Decision (1-2 lines per field):
-
-- meta: Increment invitedCount/completedCount (+1), duration and tokens (+1200 tokens, +15 min), cost (+$10), and update generatedAt for synthesis.
-- participants: Add new participant: priyaa2930@gmail.com (Owner, Small Business, e.g., Retail/Community Services, Remote WA).
-- topRoles/topIndustries: Add/augment counts for "Small Business Owner" (or similar), and new/related industry category.
-- themes: Increment/add workflow, motivation, pain, and barrier themes around funding, grant process, Indigenous mentorship, and digital skills.
-- learningGoals: Existing goals already include operational barriers, funding, mentorship, digital access, and community focus—coverage percent remains high.
-- signals: Append quoteId(s) if they strongly support mentorship+funding, barriers in financial doc/application, or program KPIs.
-- insights: Append new insight on operational funding struggles, grant process experience, mentorship value, digital/financial tools, and KPIs.
-- quotes: Add clearly attributed key quotes from transcript as q48+.
-- interviews: Add interview for priyaa2930@gmail.com with transcript, key quotes and main insight.
-
-c. The revised JSON object:
-
+// a. List insights extracted from the transcript and how they map to each SCHEMA field:
+// 
+// - Workflow/Day-to-Day: Business involves managing inventory, serving customers, supplier coordination, and regular community engagement (workflow theme).
+// - Pain/Barrier: Securing consistent funding for community initiatives is a major challenge; grant applications are time-consuming and competitive (pain, barrier).
+// - Support Experience: Participant has received local grants; used funds for equipment to boost capacity and customer service (support experience, impact).
+// - Application Experience: Application generally straightforward, but financial sections challenging; need for better examples/templates (barrier, insight).
+// - Motivations/Goals: Wants business advice with mentorship from Indigenous entrepreneurs, and funding for culturally relevant marketing/community work (motivation, goal).
+// - Success/Impact: With effective support, would see increased engagement, sales, stronger partnerships, new strategies, and more sustainability (goal, impact).
+// - Value: Mentorship, especially for marketing and cash flow, is most valuable right now; digital marketing need is prominent (motivation, theme).
+// - Previous Program Exploration: Found some marketing resources, but lacked tailored tools for remote/seasonal financial planning (barrier).
+// - Feature Request: Requests collaborative, customizable, seasonally aware financial planning tools, and indigenous-focused financial literacy content (goal, theme).
+// - CESP Features: Strong mentorship with industry-aligned experts and digital marketing training; program should show results (recommendation, goal).
+// - Success Metrics: Cites digital engagement (social/website), sales, and community collaboration as KPIs for support programs (impact, success).
+// - Final Suggestions: Calls for targeted workshops on grant/financial management, and mentorship to foster community support (goal, signal, recommendation).
+// 
+// b. Mapping Decision (1-2 lines per field):
+// 
+// - meta: Increment invitedCount/completedCount (+1), duration and tokens (+1200 tokens, +15 min), cost (+$10), and update generatedAt for synthesis.
+// - participants: Add new participant: priyaa2930@gmail.com (Owner, Small Business, e.g., Retail/Community Services, Remote WA).
+// - topRoles/topIndustries: Add/augment counts for "Small Business Owner" (or similar), and new/related industry category.
+// - themes: Increment/add workflow, motivation, pain, and barrier themes around funding, grant process, Indigenous mentorship, and digital skills.
+// - learningGoals: Existing goals already include operational barriers, funding, mentorship, digital access, and community focus—coverage percent remains high.
+// - signals: Append quoteId(s) if they strongly support mentorship+funding, barriers in financial doc/application, or program KPIs.
+// - insights: Append new insight on operational funding struggles, grant process experience, mentorship value, digital/financial tools, and KPIs.
+// - quotes: Add clearly attributed key quotes from transcript as q48+.
+// - interviews: Add interview for priyaa2930@gmail.com with transcript, key quotes and main insight.
+// 
+// c. The revised JSON object:
 {
   "meta": {
     "invitedCount": 6,

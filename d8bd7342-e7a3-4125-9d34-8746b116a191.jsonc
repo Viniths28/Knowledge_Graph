@@ -1,29 +1,28 @@
-Step-by-step reasoning:
-
-a. Insights extracted from the transcript and mapping:
-- Participant "anand@waal.ai" describes using ChatGPT and Copilot daily for generating information through to publishing.
-- Key themes: AI integration in daily workflow, use of Copilot and ChatGPT.
-- Insight: AI tools are integral in consulting workflow, from information gathering to publishing.
-- No explicit mention of role, seniority, industry etc.—these will be generic or left blank as per schema requirements when not available.
-- Quote extracted and attributed.
-- The meta block will be populated minimally, as only one interview is entered and defaults are provided where not explicitly told.
-- One participant, one interview.
-- Interview sentiment is neutral (0), as no strong positive or negative language is present.
-- Token usage is estimated (set at 50, a plausible small number given brevity of exchange).
-- Dates/times derived from transcript timestamps.
-
-b. Explanation per field in schema:
-- meta: Set invited, completed counts etc. to 1, token usage 50, single interview.
-- participants: "anand@waal.ai" with minimal required fields, adding one interview id.
-- topRoles/topIndustries: Not specified, so omitted value or set as "Consultant" for role and "Consulting" for industry due to context clues.
-- themes: AI is core to workflow, so one theme: "AI integration in consulting workflow" as "workflow".
-- learningGoals: Not explicitly stated, so omit or leave blank.
-- signals: One signal—frequent, daily AI usage in core consulting process.
-- insights: AI is deeply integrated for information generation and publishing.
-- quotes: From transcript, attributed, with quoteId "q1".
-- interviews: One entry, with reference to quote, transcript, estimating duration and sentiment.
-
-Final output below.
+// - Step-by-step reasoning:
+// a. Insights extracted from the transcript and mapping:
+// - Participant "anand@waal.ai" describes using ChatGPT and Copilot daily for generating information through to publishing.
+// - Key themes: AI integration in daily workflow, use of Copilot and ChatGPT.
+// - Insight: AI tools are integral in consulting workflow, from information gathering to publishing.
+// - No explicit mention of role, seniority, industry etc.—these will be generic or left blank as per schema requirements when not available.
+// - Quote extracted and attributed.
+// - The meta block will be populated minimally, as only one interview is entered and defaults are provided where not explicitly told.
+// - One participant, one interview.
+// - Interview sentiment is neutral (0), as no strong positive or negative language is present.
+// - Token usage is estimated (set at 50, a plausible small number given brevity of exchange).
+// - Dates/times derived from transcript timestamps.
+// 
+// b. Explanation per field in schema:
+// - meta: Set invited, completed counts etc. to 1, token usage 50, single interview.
+// - participants: "anand@waal.ai" with minimal required fields, adding one interview id.
+// - topRoles/topIndustries: Not specified, so omitted value or set as "Consultant" for role and "Consulting" for industry due to context clues.
+// - themes: AI is core to workflow, so one theme: "AI integration in consulting workflow" as "workflow".
+// - learningGoals: Not explicitly stated, so omit or leave blank.
+// - signals: One signal—frequent, daily AI usage in core consulting process.
+// - insights: AI is deeply integrated for information generation and publishing.
+// - quotes: From transcript, attributed, with quoteId "q1".
+// - interviews: One entry, with reference to quote, transcript, estimating duration and sentiment.
+// 
+// Final output below.
 
 {
   "meta": {

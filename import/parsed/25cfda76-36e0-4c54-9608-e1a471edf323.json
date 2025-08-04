@@ -1,33 +1,4 @@
-a. Insights extracted from the transcript and SCHEMA field mapping:
-- Roster planning considers peak hours, availability, time off, and employee strengths/preferences. (maps to insights, themes, learningGoals)
-- Use of spreadsheets and an app (integrated with POS) to manage scheduling, but glitches cause confusion. (themes, insights, signals, quotes)
-- Frequent last-minute changes demand weekly roster adjustments, often due to sudden absences. (themes, signals, insights)
-- Backup relies on part-timers—no systematic process for tracking or managing pickup of extra shifts. (themes, signals)
-- Difficulties with tools: lack of real-time updates, poor integration (esp. with payroll), cumbersome manual adjustments. (themes, signals, insights, learningGoals)
-- Payroll/timesheet errors cause underpayment, trust/morale issues, and ripple effects in operations. (themes, signals)
-- Attempts to address errors with weekly reviews and double-checks. (insights)
-- Importance of communication for rebuilding team trust after errors. (themes, insights)
-- Emergency scheduling (holidays, illness) often creates chaos; new backup measures and communication needs. (themes)
-- Would value a central, real-time scheduling/availability system; user-friendly, mobile, with training support. (learningGoals, themes)
-- Experience with Slack shows value of intuitive, easily adopted tools for communication but needs focus on rostering. (insights)
-- Current manual process for updating schedules is overwhelming during peak times. (themes)
-- Considering on-call/standby system, but would require clarity, commitment, possibly incentives. (insights)
-- Authority to adopt new tools, but seeks team/franchisor buy-in. (insights)
-
-b. Mapping explanation:
-- meta: Initialized for the first participant/interview—estimates filled for field requirements.
-- participants: Added bharath.sundar@aiyor.co as participant with interview reference. Role/industry details inferred as "Franchise Owner", "F&B/Retail Franchise", etc. from transcript context.
-- topRoles/topIndustries: Franchise Owner and Franchise/Retail.
-- themes: Pain (tool gaps, last-minute changes, payroll/integration), Goal (better scheduling system), Motivation (reduce errors, boost team trust).
-- learningGoals: Understand what makes scheduling hard, importance of communication, features of an ideal solution.
-- signals: Recurrent, cross-cutting challenges (poor integration, manual processes, staff trust/retention).
-- insights: Concise executive-level findings with supporting quote references.
-- quotes: Most representative verbatims elevated with timestamp, source, interviewId.
-- interviews: Full reference including transcript turns, sentiment, token usage, and summary insights.
-
-c. Updated, schema-compliant JSON object below.
-
-{
+﻿{
   "meta": {
     "invitedCount": 1,
     "declinedCount": 0,

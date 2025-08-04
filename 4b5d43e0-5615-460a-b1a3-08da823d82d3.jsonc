@@ -1,32 +1,31 @@
-INSIGHTS EXTRACTED & FIELD MAPPING DECISION:
-
-a. Insights Extracted from Transcript and SCHEMA Mapping:
-
-1. Current Use: Daily use of Generative AI for reports, presentations, drafting, data analysis in consulting projects; also used for personal tasks like meal planning and scheduling. (Map: quotes, reinforce t_automation_goal, t_workflow_productivity, t_client_deliverables_goal)
-2. Tools: ChatGPT (reports/ideas), DALL-E (visual creation), Midjourney (for presentations); tried and rejected AI scheduling/project mgmt. tools due to poor fit. Heard colleagues refer to these as well. (Map: quotes, reinforce t_ai_usability_barrier, t_ai_usability_barrier)
-3. Barriers/Risks: Doubts about AI accuracy, bias, fit for compliance/regulatory environments; concern about tool reliability, relevance to consulting, inability to capture nuance; shared organizational caution and culture of risk management. (Map: quotes, reinforce t_data_sensitivity_barrier, t_ai_usability_barrier, t_over_reliance_barrier, t_ai_stakeholder_communciation_barrier)
-4. Opportunities: AI very useful for automating data synthesis of interviews/feedback, survey/question drafting, freeing up strategic capacity, automating routine reporting; strong belief in value for qualitative data analysis and operating models. (Map: quotes, reinforce t_automation_goal, t_client_deliverables_goal, t_workflow_productivity)
-5. Capability Building: Interest in hands-on demos, practical blended training, tailored sector examples, live and self-paced learning, more time to experiment; main gap is time. (Map: quotes, reinforce t_capability_building_motivation, t_blended_training_goal, t_culture_experimentation_motivation)
-6. Motivations: Strong desire for sector-relevant, structured support (public services, healthcare), live leadership-backed programs, and dedicated experimentation time; strong appetite for responsible and ethical use. (Map: quotes, reinforce t_capability_building_motivation, t_culture_experimentation_motivation)
-7. Curiosity/Ideas: Want to advance AI for citizen engagement, data-driven decision-making, ethical frameworks for sensitive sectors. (Map: quotes, reinforce opportunity/goal/motivation/themes)
-
-b. Mapping Decision Explanation:
-
-- "themes":
-  - Increment "count" (+1) for: t_ai_usability_barrier, t_data_sensitivity_barrier, t_over_reliance_barrier, t_automation_goal, t_client_deliverables_goal, t_capability_building_motivation, t_culture_experimentation_motivation, t_workflow_productivity, t_ai_stakeholder_communciation_barrier, t_blended_training_goal.
-- "learningGoals":
-  - Strong reinforcement of LG1–LG4. New quotes referenced in answers about the need for sector-specific, hands-on, blended, and ongoing AI support.
-- "quotes":
-  - Add new quoteIds q119–q137, attribute to "manvir@playwright.com--", with timestamps from the transcript.
-- "insights":
-  - Append new quoteIds to the appropriate arrays for related questions — AI daily workflow use, barriers to adoption (with deep compliance nuance), support/enabler recommendations, big opportunities, integration best practice.
-- "signals":
-  - Relate quotes to s1 (barriers/trust), s2 (capability build), s3 (automation), s5 (leadership/culture), s7 (human review for context/nuance).
-- "interviews":
-  - Add new interview for "manvir@playwright.com--," with synthesized meta (start/end/tokens/duration) and key quotes/insights and sentiment (overall positive, pragmatic, highlights both optimism and caution).
-
-NOW THE JSON OUTPUT BELOW.
-
+// INSIGHTS EXTRACTED & FIELD MAPPING DECISION:
+// 
+// a. Insights Extracted from Transcript and SCHEMA Mapping:
+// 
+// 1. Current Use: Daily use of Generative AI for reports, presentations, drafting, data analysis in consulting projects; also used for personal tasks like meal planning and scheduling. (Map: quotes, reinforce t_automation_goal, t_workflow_productivity, t_client_deliverables_goal)
+// 2. Tools: ChatGPT (reports/ideas), DALL-E (visual creation), Midjourney (for presentations); tried and rejected AI scheduling/project mgmt. tools due to poor fit. Heard colleagues refer to these as well. (Map: quotes, reinforce t_ai_usability_barrier, t_ai_usability_barrier)
+// 3. Barriers/Risks: Doubts about AI accuracy, bias, fit for compliance/regulatory environments; concern about tool reliability, relevance to consulting, inability to capture nuance; shared organizational caution and culture of risk management. (Map: quotes, reinforce t_data_sensitivity_barrier, t_ai_usability_barrier, t_over_reliance_barrier, t_ai_stakeholder_communciation_barrier)
+// 4. Opportunities: AI very useful for automating data synthesis of interviews/feedback, survey/question drafting, freeing up strategic capacity, automating routine reporting; strong belief in value for qualitative data analysis and operating models. (Map: quotes, reinforce t_automation_goal, t_client_deliverables_goal, t_workflow_productivity)
+// 5. Capability Building: Interest in hands-on demos, practical blended training, tailored sector examples, live and self-paced learning, more time to experiment; main gap is time. (Map: quotes, reinforce t_capability_building_motivation, t_blended_training_goal, t_culture_experimentation_motivation)
+// 6. Motivations: Strong desire for sector-relevant, structured support (public services, healthcare), live leadership-backed programs, and dedicated experimentation time; strong appetite for responsible and ethical use. (Map: quotes, reinforce t_capability_building_motivation, t_culture_experimentation_motivation)
+// 7. Curiosity/Ideas: Want to advance AI for citizen engagement, data-driven decision-making, ethical frameworks for sensitive sectors. (Map: quotes, reinforce opportunity/goal/motivation/themes)
+// 
+// b. Mapping Decision Explanation:
+// 
+// - "themes":
+//   - Increment "count" (+1) for: t_ai_usability_barrier, t_data_sensitivity_barrier, t_over_reliance_barrier, t_automation_goal, t_client_deliverables_goal, t_capability_building_motivation, t_culture_experimentation_motivation, t_workflow_productivity, t_ai_stakeholder_communciation_barrier, t_blended_training_goal.
+// - "learningGoals":
+//   - Strong reinforcement of LG1–LG4. New quotes referenced in answers about the need for sector-specific, hands-on, blended, and ongoing AI support.
+// - "quotes":
+//   - Add new quoteIds q119–q137, attribute to "manvir@playwright.com--", with timestamps from the transcript.
+// - "insights":
+//   - Append new quoteIds to the appropriate arrays for related questions — AI daily workflow use, barriers to adoption (with deep compliance nuance), support/enabler recommendations, big opportunities, integration best practice.
+// - "signals":
+//   - Relate quotes to s1 (barriers/trust), s2 (capability build), s3 (automation), s5 (leadership/culture), s7 (human review for context/nuance).
+// - "interviews":
+//   - Add new interview for "manvir@playwright.com--," with synthesized meta (start/end/tokens/duration) and key quotes/insights and sentiment (overall positive, pragmatic, highlights both optimism and caution).
+// 
+// NOW THE JSON OUTPUT BELOW.
 {
   "meta": {
     "invitedCount": 6,

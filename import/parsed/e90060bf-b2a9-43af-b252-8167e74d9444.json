@@ -1,0 +1,717 @@
+﻿{
+  "meta": {
+    "invitedCount": 2,
+    "declinedCount": 0,
+    "noShowCount": 0,
+    "completedCount": 2,
+    "completionRate": 1,
+    "averageDurationMin": 1.8,
+    "totalTokenUsage": 1000,
+    "avgTokensPerInterview": 500,
+    "estimatedCostUSD": 10,
+    "generatedAt": "2023-10-10T00:00:00Z"
+  },
+  "participants": [
+    {
+      "id": "alexis_demo@caanz.com",
+      "name": "alexis_demo@caanz.com",
+      "role": "Market Research Analyst",
+      "seniority": "Not Specified",
+      "segment": "Research",
+      "industry": "Market Research",
+      "organisationSize": "Not Specified",
+      "location": "Not Specified",
+      "interviewIds": [
+        "interview_alexis_1"
+      ]
+    },
+    {
+      "id": "lauren_demo@caanz.com",
+      "name": "lauren_demo@caanz.com",
+      "role": "Market Research Analyst",
+      "seniority": "Not Specified",
+      "segment": "Research",
+      "industry": "Market Research",
+      "organisationSize": "Not Specified",
+      "location": "Not Specified",
+      "interviewIds": [
+        "interview_laura_1"
+      ]
+    }
+  ],
+  "topRoles": [
+    {
+      "role": "Market Research Analyst",
+      "count": 2
+    }
+  ],
+  "topIndustries": [
+    {
+      "industry": "Market Research",
+      "count": 2
+    }
+  ],
+  "themes": [
+    {
+      "themeId": "theme1",
+      "themeType": "motivation",
+      "label": "Efficient research methods as catalyst",
+      "count": 1,
+      "prevalence": 1,
+      "strength": 1
+    },
+    {
+      "themeId": "theme2",
+      "themeType": "goal",
+      "label": "Streamline qualitative research processes",
+      "count": 1,
+      "prevalence": 1,
+      "strength": 1
+    },
+    {
+      "themeId": "theme3",
+      "themeType": "pain",
+      "label": "Time-consuming qualitative data analysis",
+      "count": 1,
+      "prevalence": 1,
+      "strength": 1
+    },
+    {
+      "themeId": "theme4",
+      "themeType": "workflow",
+      "label": "Integration with existing data analysis tools",
+      "count": 1,
+      "prevalence": 1,
+      "strength": 1
+    },
+    {
+      "themeId": "theme5",
+      "themeType": "goal",
+      "label": "Understanding product differentiation and market positioning",
+      "count": 1,
+      "prevalence": 1,
+      "strength": 1
+    },
+    {
+      "themeId": "theme6",
+      "themeType": "goal",
+      "label": "Scalability and onboarding support",
+      "count": 1,
+      "prevalence": 1,
+      "strength": 1
+    },
+    {
+      "themeId": "theme7",
+      "themeType": "workflow",
+      "label": "Seamless integration and customizable research templates",
+      "count": 1,
+      "prevalence": 1,
+      "strength": 1
+    }
+  ],
+  "learningGoals": [
+    {
+      "goalId": "lg1",
+      "description": "Understand how Waal.ai streamlines qualitative research and data analysis",
+      "coveragePercent": 100,
+      "representativeQuoteId": "quote3",
+      "confidence": 1
+    },
+    {
+      "goalId": "lg2",
+      "description": "Learn about integration capabilities for enhanced workflow efficiency",
+      "coveragePercent": 100,
+      "representativeQuoteId": "quote8",
+      "confidence": 1
+    },
+    {
+      "goalId": "lg3",
+      "description": "Learn how Waal.ai differentiates itself and leverages digital interviewing",
+      "coveragePercent": 100,
+      "representativeQuoteId": "quote15",
+      "confidence": 1
+    },
+    {
+      "goalId": "lg4",
+      "description": "Understand scalability, integration and onboarding support for effective research",
+      "coveragePercent": 100,
+      "representativeQuoteId": "quote21",
+      "confidence": 1
+    }
+  ],
+  "signals": [
+    {
+      "signalId": "signal1",
+      "headline": "Automation enhances efficiency",
+      "whyItMatters": "Automated methods can reduce the time and resources required for qualitative data analysis.",
+      "prevalence": 1,
+      "quoteIds": [
+        "quote1",
+        "quote5"
+      ],
+      "firstObservedInterviewId": "interview_alexis_1"
+    },
+    {
+      "signalId": "signal2",
+      "headline": "Integration and customization are key",
+      "whyItMatters": "Seamless integration with existing tools and customizable features can significantly improve workflow.",
+      "prevalence": 1,
+      "quoteIds": [
+        "quote8",
+        "quote10"
+      ],
+      "firstObservedInterviewId": "interview_alexis_1"
+    },
+    {
+      "signalId": "signal3",
+      "headline": "Digital interviewing as a game-changer",
+      "whyItMatters": "Automated digital interviewing can streamline participant engagement and accelerate data collection.",
+      "prevalence": 1,
+      "quoteIds": [
+        "quote11",
+        "quote13"
+      ],
+      "firstObservedInterviewId": "interview_laura_1"
+    },
+    {
+      "signalId": "signal4",
+      "headline": "Scalability and customization to meet evolving research needs",
+      "whyItMatters": "Understanding robust onboarding, integration, and scalability is pivotal for adapting to growing research demands.",
+      "prevalence": 1,
+      "quoteIds": [
+        "quote21",
+        "quote22"
+      ],
+      "firstObservedInterviewId": "interview_laura_1"
+    }
+  ],
+  "insights": [
+    {
+      "question": "What sparked your interest in reaching out to Waal?",
+      "finding": "Alexis highlighted the need for more efficient qualitative research methods, emphasizing the role of automation in streamlining data collection and analysis.",
+      "quoteIds": [
+        "quote1"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "question": "What are you hoping to get out of the upcoming chat with the founder?",
+      "finding": "Alexis expects to gain clarity on Waal.ai’s digital interviewer capabilities, integration methods, and real-world case studies.",
+      "quoteIds": [
+        "quote3"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "question": "What kinds of opportunities are you gravitating toward?",
+      "finding": "Alexis aspires to leverage AI-driven research methodologies to enhance participant engagement and expedite data analysis while fostering collaboration.",
+      "quoteIds": [
+        "quote4"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "question": "What product enhancements would make Waal more valuable?",
+      "finding": "Alexis suggested features such as integration with existing data analysis tools, customizable templates, and improvements in the user interface to boost efficiency.",
+      "quoteIds": [
+        "quote8",
+        "quote10"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "question": "What sparked your interest and how do you view Waal.ai?",
+      "finding": "Lauren emphasized the need for efficient qualitative research tools and was drawn to Waal.ai’s automated digital interviewing that promises time savings and enhanced insights.",
+      "quoteIds": [
+        "quote11",
+        "quote12"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "question": "What topics are you looking forward to discussing with the founder?",
+      "finding": "Lauren is keen to explore how Waal.ai differentiates itself in the market, especially regarding its digital interviewer technology and integration capabilities, and she values scalability and robust onboarding support.",
+      "quoteIds": [
+        "quote15",
+        "quote21"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "question": "What future opportunities and improvements do you anticipate?",
+      "finding": "Lauren is interested in leveraging innovative technologies to streamline research, highlighting the importance of seamless integration, customizable research templates, and scalable support.",
+      "quoteIds": [
+        "quote16",
+        "quote17",
+        "quote20"
+      ],
+      "mentionCount": 1
+    },
+    {
+      "question": "What further product capabilities would be beneficial?",
+      "finding": "Lauren underscored the need for detailed onboarding processes, ongoing support, and enhanced integration with existing systems to ensure minimal workflow disruption.",
+      "quoteIds": [
+        "quote19",
+        "quote22"
+      ],
+      "mentionCount": 1
+    }
+  ],
+  "quotes": [
+    {
+      "quoteId": "quote1",
+      "interviewId": "interview_alexis_1",
+      "text": "My interest in reaching out to Waal was sparked by the need for more efficient qualitative research methods.",
+      "source": "alexis_demo@caanz.com",
+      "timestamp": "2025-07-14T07:56:53.869Z"
+    },
+    {
+      "quoteId": "quote2",
+      "interviewId": "interview_alexis_1",
+      "text": "I understand Waal.ai to be an automated qualitative research platform that leverages digital interviewing and smart insight automation to streamline the research process.",
+      "source": "alexis_demo@caanz.com",
+      "timestamp": "2025-07-14T07:57:00.595Z"
+    },
+    {
+      "quoteId": "quote3",
+      "interviewId": "interview_alexis_1",
+      "text": "I’m hoping to gain a deeper understanding of how Waal.ai can specifically streamline our qualitative research processes and enhance our data analysis capabilities.",
+      "source": "alexis_demo@caanz.com",
+      "timestamp": "2025-07-14T07:57:07.339Z"
+    },
+    {
+      "quoteId": "quote4",
+      "interviewId": "interview_alexis_1",
+      "text": "I thrive in environments that prioritize collaboration and innovation, especially where diverse perspectives are valued.",
+      "source": "alexis_demo@caanz.com",
+      "timestamp": "2025-07-14T07:57:23.202Z"
+    },
+    {
+      "quoteId": "quote5",
+      "interviewId": "interview_alexis_1",
+      "text": "Waal.ai could significantly enhance my future work by streamlining qualitative research processes, allowing for more efficient data collection and analysis.",
+      "source": "alexis_demo@caanz.com",
+      "timestamp": "2025-07-14T07:57:29.75Z"
+    },
+    {
+      "quoteId": "quote6",
+      "interviewId": "interview_alexis_1",
+      "text": "I’m particularly interested in understanding how Waal.ai’s automated qualitative research system can enhance the efficiency of data collection and analysis in my projects.",
+      "source": "alexis_demo@caanz.com",
+      "timestamp": "2025-07-14T07:57:53.393Z"
+    },
+    {
+      "quoteId": "quote7",
+      "interviewId": "interview_alexis_1",
+      "text": "One challenge I often face is the time-consuming nature of qualitative data analysis.",
+      "source": "alexis_demo@caanz.com",
+      "timestamp": "2025-07-14T07:58:02.42Z"
+    },
+    {
+      "quoteId": "quote8",
+      "interviewId": "interview_alexis_1",
+      "text": "One feature that would greatly enhance Waal.ai’s value is the ability to integrate with existing data analysis tools for seamless reporting.",
+      "source": "alexis_demo@caanz.com",
+      "timestamp": "2025-07-14T07:58:09.064Z"
+    },
+    {
+      "quoteId": "quote9",
+      "interviewId": "interview_alexis_1",
+      "text": "My key goal is to streamline the qualitative research process to save time and resources while still extracting meaningful insights.",
+      "source": "alexis_demo@caanz.com",
+      "timestamp": "2025-07-14T07:58:15.544Z"
+    },
+    {
+      "quoteId": "quote10",
+      "interviewId": "interview_alexis_1",
+      "text": "I’d love to know more about how Waal.ai plans to integrate user feedback into its ongoing development. Additionally, I’m curious about the specific features that distinguish it from other automated research tools in the market.",
+      "source": "alexis_demo@caanz.com",
+      "timestamp": "2025-07-14T07:58:33.052Z"
+    },
+    {
+      "quoteId": "quote11",
+      "interviewId": "interview_laura_1",
+      "text": "My interest in Waal was sparked by the increasing need for efficient qualitative research tools that can streamline the data collection process.",
+      "source": "lauren_demo@caanz.com",
+      "timestamp": "2025-07-14T07:54:38.416Z"
+    },
+    {
+      "quoteId": "quote12",
+      "interviewId": "interview_laura_1",
+      "text": "Waal.ai appears to be a cutting-edge automated qualitative research platform that leverages digital interviewing and smart insight automation to streamline the research process.",
+      "source": "lauren_demo@caanz.com",
+      "timestamp": "2025-07-14T07:54:46.559Z"
+    },
+    {
+      "quoteId": "quote13",
+      "interviewId": "interview_laura_1",
+      "text": "I find Waal’s automated qualitative research capabilities particularly compelling, as they can significantly streamline the research process, saving time and resources.",
+      "source": "lauren_demo@caanz.com",
+      "timestamp": "2025-07-14T07:54:53.991Z"
+    },
+    {
+      "quoteId": "quote15",
+      "interviewId": "interview_laura_1",
+      "text": "I’d like to understand how Waal.ai differentiates itself in the market compared to other automated qualitative research tools. Specifically, insights on the technology behind the digital interviewer and how smart insight automation can enhance the research process would be valuable.",
+      "source": "lauren_demo@caanz.com",
+      "timestamp": "2025-07-14T07:55:08.142Z"
+    },
+    {
+      "quoteId": "quote16",
+      "interviewId": "interview_laura_1",
+      "text": "I’m currently gravitating toward opportunities that leverage innovative technologies like Waal.ai for automating qualitative research processes.",
+      "source": "lauren_demo@caanz.com",
+      "timestamp": "2025-07-14T07:55:16.745Z"
+    },
+    {
+      "quoteId": "quote17",
+      "interviewId": "interview_laura_1",
+      "text": "I’m looking to be part of a forward-thinking team that values innovation and collaboration, where technology is leveraged to enhance research efficiency and insights.",
+      "source": "lauren_demo@caanz.com",
+      "timestamp": "2025-07-14T07:55:24.21Z"
+    },
+    {
+      "quoteId": "quote18",
+      "interviewId": "interview_laura_1",
+      "text": "Waal.ai could significantly enhance our research capabilities by automating qualitative data analysis, allowing us to focus more on strategic insights and less on manual processes.",
+      "source": "lauren_demo@caanz.com",
+      "timestamp": "2025-07-14T07:55:31.027Z"
+    },
+    {
+      "quoteId": "quote19",
+      "interviewId": "interview_laura_1",
+      "text": "I’m particularly interested in understanding how Waal.ai’s automated insights can enhance the efficiency of our qualitative research processes. Additionally, I’d like to know about the integration capabilities with existing tools we currently use.",
+      "source": "lauren_demo@caanz.com",
+      "timestamp": "2025-07-14T07:55:37.838Z"
+    },
+    {
+      "quoteId": "quote20",
+      "interviewId": "interview_laura_1",
+      "text": "I would emphasize the need for seamless integration with our existing data systems to ensure smooth transitions and minimize disruptions.",
+      "source": "lauren_demo@caanz.com",
+      "timestamp": "2025-07-14T07:55:44.365Z"
+    },
+    {
+      "quoteId": "quote21",
+      "interviewId": "interview_laura_1",
+      "text": "One key aspect I’d love to discuss further is the scalability of Waal.ai—how well it adapts as our research needs grow or change over time. Additionally, I’d be interested in understanding more about the support and resources available for onboarding and training.",
+      "source": "lauren_demo@caanz.com",
+      "timestamp": "2025-07-14T07:55:58.22Z"
+    },
+    {
+      "quoteId": "quote22",
+      "interviewId": "interview_laura_1",
+      "text": "I would suggest asking the founder about the specific onboarding processes in place for new users, as well as any ongoing support they offer to ensure that teams can effectively leverage Waal.ai’s capabilities.",
+      "source": "lauren_demo@caanz.com",
+      "timestamp": "2025-07-14T07:56:06.205Z"
+    }
+  ],
+  "interviews": [
+    {
+      "id": "interview_alexis_1",
+      "participantId": "alexis_demo@caanz.com",
+      "role": "Market Research Analyst",
+      "status": "finished",
+      "startTime": "2025-07-14T07:56:50.311Z",
+      "endTime": "2025-07-14T07:58:37.4220769Z",
+      "duration": "00:01:47",
+      "date": "2025-07-14",
+      "languageCode": "en",
+      "overallSentiment": 0,
+      "keyQuoteIds": [
+        "quote1",
+        "quote8",
+        "quote10"
+      ],
+      "keyInsights": [
+        {
+          "insight": "Efficiency in qualitative research drives interest.",
+          "confidence": "high"
+        },
+        {
+          "insight": "Expectations for streamlined processes and integration.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {
+        "turns": [
+          {
+            "speaker": "assistant",
+            "text": "Hi there! Over the next 10–15 minutes, we’ll cover four topics—Catalyst for Interest, Perception of Waal, Expectations from the Founder Call, and Future Directions—to better understand your journey and aspirations. Let’s begin with our first question: What sparked your recent interest in reaching out to Waal?",
+            "timestamp": "2025-07-14T07:56:50.311Z"
+          },
+          {
+            "speaker": "user",
+            "text": "My interest in reaching out to Waal was sparked by the need for more efficient qualitative research methods. As a market research analyst, I’m always looking for innovative tools that can streamline the process, and Waal’s automated digital interviewer and smart insight automation seemed like a game-changer for enhancing data collection and analysis.",
+            "timestamp": "2025-07-14T07:56:53.869Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That makes a lot of sense—thanks for sharing that. It sounds like Waal’s automation capabilities really align with the kind of efficiencies you’re looking for in your work. Shifting gears a bit, how would you describe what you currently understand Waal to be or do?",
+            "timestamp": "2025-07-14T07:56:57.3578364Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I understand Waal.ai to be an automated qualitative research platform that leverages digital interviewing and smart insight automation to streamline the research process. It allows researchers to gather and analyze qualitative data more efficiently, which is particularly appealing to me as I often seek ways to optimize my workflow and enhance the quality of insights derived from user interviews.",
+            "timestamp": "2025-07-14T07:57:00.595Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really thoughtful take—thanks for articulating it so clearly. Since you mentioned how Waal’s automation appeals to your workflow optimization goals, I’m curious: what are you hoping to get out of the upcoming chat with the founder?",
+            "timestamp": "2025-07-14T07:57:04.1608758Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I’m hoping to gain a deeper understanding of how Waal.ai can specifically streamline our qualitative research processes and enhance our data analysis capabilities. Additionally, I’d like to explore any unique features or case studies that demonstrate its effectiveness in real-world applications.",
+            "timestamp": "2025-07-14T07:57:07.339Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s super helpful—hearing that you’re looking for real-world examples and practical impact gives great context. Let’s zoom out a bit: looking ahead, what kinds of opportunities or work are you finding yourself gravitating toward these days?",
+            "timestamp": "2025-07-14T07:57:12.5108252Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I’m increasingly drawn to opportunities that leverage automated insights and AI-driven research methodologies, like Waal.ai, to streamline qualitative research processes. For instance, I see potential in using automated systems to quickly analyze consumer sentiment trends, enabling businesses to adapt their strategies in real-time based on actionable insights.",
+            "timestamp": "2025-07-14T07:57:15.762Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really compelling direction—AI-driven methodologies definitely seem to be shaping the future of research. To build on that a bit, is there a particular kind of impact, environment, or team dynamic that feels like the right fit for you as you explore these kinds of opportunities?",
+            "timestamp": "2025-07-14T07:57:19.9770539Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I thrive in environments that prioritize collaboration and innovation, especially where diverse perspectives are valued. A team dynamic that encourages open communication and experimentation would greatly enhance my ability to leverage AI-driven methodologies, ultimately leading to more insightful research outcomes. For example, working with multidisciplinary teams can help in integrating AI tools like Waal.ai more effectively into our research processes.",
+            "timestamp": "2025-07-14T07:57:23.202Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a great point—multidisciplinary collaboration really can unlock more creative and effective use of tools like Waal. Just to round things out a bit, where do you see Waal potentially fitting into your future work or goals?",
+            "timestamp": "2025-07-14T07:57:26.8693218Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Waal.ai could significantly enhance my future work by streamlining qualitative research processes, allowing for more efficient data collection and analysis. For instance, using its automated insights could free up time for deeper strategic thinking and foster collaboration across teams, ultimately improving project outcomes.",
+            "timestamp": "2025-07-14T07:57:29.75Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really strong vision—thanks for laying that out so clearly. Before we wrap up, I’d love to hear: what are you hoping to get out of the upcoming conversation with the Waal founder? Any particular questions or topics you’re hoping to explore?",
+            "timestamp": "2025-07-14T07:57:33.368795Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I’m particularly interested in understanding how Waal.ai’s automated qualitative research system can enhance the efficiency of data collection and analysis in my projects. Additionally, I want to clarify how the digital interviewer adapts to different respondent types and scenarios, as well as the specific insights automation features that can simplify reporting.",
+            "timestamp": "2025-07-14T07:57:53.393Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s super clear—sounds like you have a strong sense of what you want to explore in the founder chat. Before we close, is there anything else you’re hoping Waal could help you achieve in your future work—maybe a challenge you’ve faced or an aspiration you’re working toward?",
+            "timestamp": "2025-07-14T07:57:59.0996372Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Certainly! One challenge I often face is the time-consuming nature of qualitative data analysis. I’m looking for Waal.ai to help streamline this process, allowing me to quickly derive insights from interviews and focus on strategic decision-making. Additionally, I aspire to enhance the depth of my research, and I believe Waal’s automation features could help me uncover insights I might miss manually.",
+            "timestamp": "2025-07-14T07:58:02.42Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Thanks for sharing that—it’s clear you’re thinking deeply about how to evolve your research processes. Just before we finish up, is there anything else you’d like to see from Waal that would make it even more valuable for your work—or any final thoughts you’d like to share?",
+            "timestamp": "2025-07-14T07:58:05.837834Z"
+          },
+          {
+            "speaker": "user",
+            "text": "One feature that would greatly enhance Waal.ai’s value is the ability to integrate with existing data analysis tools for seamless reporting. Additionally, having customizable templates for different types of research studies could save time and improve efficiency. Overall, I’m excited about the potential of automated qualitative research and how it can streamline our processes.",
+            "timestamp": "2025-07-14T07:58:09.064Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s incredibly helpful feedback—thank you for being so thoughtful and generous with your insights throughout. Before we close, is there anything else you’d like to ask or any final reflections you’d like to leave us with?",
+            "timestamp": "2025-07-14T07:58:12.2361811Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I appreciate the opportunity to share my thoughts. I’d love to know more about how Waal.ai plans to integrate user feedback into its ongoing development. Additionally, I’m curious about the specific features that distinguish it from other automated research tools in the market. This insight could really help potential users like Lauren and Alexis make informed decisions.",
+            "timestamp": "2025-07-14T07:58:33.052Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Thank you—that’s a great note to end on. Your questions about user feedback integration and points of differentiation are really insightful, and I’m sure they’ll help shape the next phase of Waal’s development. We’ll be sure to pass that along to the team. Thanks again for your time and thoughtful input—it’s been a real pleasure speaking with you!",
+            "timestamp": "2025-07-14T07:58:37.4220769Z"
+          }
+        ],
+        "sentimentTimeline": [
+          {
+            "timestamp": "2025-07-14T07:56:50.311Z",
+            "sentiment": 0
+          }
+        ],
+        "tokenUsage": 500
+      }
+    },
+    {
+      "id": "interview_laura_1",
+      "participantId": "lauren_demo@caanz.com",
+      "role": "Market Research Analyst",
+      "status": "finished",
+      "startTime": "2025-07-14T07:54:34.526Z",
+      "endTime": "2025-07-14T07:56:09.5848567Z",
+      "duration": "00:01:35",
+      "date": "2025-07-14",
+      "languageCode": "en",
+      "overallSentiment": 0,
+      "keyQuoteIds": [
+        "quote11",
+        "quote15",
+        "quote21"
+      ],
+      "keyInsights": [
+        {
+          "insight": "Efficient qualitative research tools and automation spark interest.",
+          "confidence": "high"
+        },
+        {
+          "insight": "Expectations focus on market differentiation, integration capabilities, and scalable onboarding support.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {
+        "turns": [
+          {
+            "speaker": "assistant",
+            "text": "Hi there! Over the next 10–15 minutes, we’ll cover four topics—Catalyst for Interest, Perception of Waal, Expectations from the Founder Call, and Future Directions—to better understand your motivations and goals. Let’s begin with our first question: What sparked your recent interest in Waal and led you to reach out?",
+            "timestamp": "2025-07-14T07:54:34.526Z"
+          },
+          {
+            "speaker": "user",
+            "text": "My interest in Waal was sparked by the increasing need for efficient qualitative research tools that can streamline the data collection process. I was particularly intrigued by its automated digital interviewer feature, which promises to save time and enhance the quality of insights, making it a compelling option for my research needs.",
+            "timestamp": "2025-07-14T07:54:38.416Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That makes a lot of sense—Waal’s focus on automation and efficiency definitely stands out. How would you describe what you think Waal is or does?",
+            "timestamp": "2025-07-14T07:54:42.1767406Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Waal.ai appears to be a cutting-edge automated qualitative research platform that leverages digital interviewing and smart insight automation to streamline the research process. It’s designed to enhance efficiency and accuracy in gathering qualitative data, allowing researchers to focus more on analysis rather than logistics.",
+            "timestamp": "2025-07-14T07:54:46.559Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really solid understanding—thank you for articulating it so clearly. What aspects of Waal do you find most compelling, either professionally or personally?",
+            "timestamp": "2025-07-14T07:54:50.5904135Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I find Waal’s automated qualitative research capabilities particularly compelling, as they can significantly streamline the research process, saving time and resources. Personally, the prospect of leveraging AI for deeper insights into human behavior excites me and aligns with my passion for data-driven decision-making.",
+            "timestamp": "2025-07-14T07:54:53.991Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s great to hear—your passion for data-driven insights really comes through. What are you hoping to get out of your upcoming chat with the founder?",
+            "timestamp": "2025-07-14T07:54:57.1606182Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I’m eager to understand how Waal.ai’s automated qualitative research capabilities can enhance our current processes. Specifically, I’m interested in exploring the efficiency of the digital interviewer and how smart insights automation can provide deeper, actionable insights from our data.",
+            "timestamp": "2025-07-14T07:55:00.077Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That sounds like a thoughtful agenda. Is there anything specific you’d want to walk away with from the call so that it feels worthwhile?",
+            "timestamp": "2025-07-14T07:55:04.0355707Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I’d like to understand how Waal.ai differentiates itself in the market compared to other automated qualitative research tools. Insights on the digital interviewer technology and examples of successful case studies would be valuable.",
+            "timestamp": "2025-07-14T07:55:08.142Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a thoughtful perspective—it sounds like you’re looking for both strategic context and real-world proof points. Looking ahead, what kinds of opportunities or work are you gravitating toward?",
+            "timestamp": "2025-07-14T07:55:13.1120142Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I’m currently gravitating toward opportunities that leverage innovative technologies like Waal.ai for automating qualitative research processes. The ability to streamline insights and enhance decision-making through AI-driven analysis is particularly appealing, especially in adapting to evolving market demands.",
+            "timestamp": "2025-07-14T07:55:16.745Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "It’s clear you’re excited about technology-driven research. What kind of team or environment do you envision being a part of as you pursue these opportunities?",
+            "timestamp": "2025-07-14T07:55:20.8328181Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I’m looking to be part of a forward-thinking team that values innovation and collaboration, where technology is leveraged to enhance research efficiency and insights.",
+            "timestamp": "2025-07-14T07:55:24.21Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a strong vision. One last thing—where do you see Waal fitting into your journey moving forward?",
+            "timestamp": "2025-07-14T07:55:27.7677567Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Waal.ai could significantly enhance our research capabilities by automating qualitative data analysis, allowing us to focus more on strategic insights. Integrating its digital interviewer could streamline participant engagement and foster a more data-driven culture.",
+            "timestamp": "2025-07-14T07:55:31.027Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Great way to bring it all together. Finally, do you have any questions for the founder?",
+            "timestamp": "2025-07-14T07:55:34.9406158Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I’m particularly interested in understanding how Waal.ai’s automated insights can enhance the efficiency of our qualitative research processes, and I’d like to learn about the integration capabilities with our existing systems.",
+            "timestamp": "2025-07-14T07:55:37.838Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Those are great areas to explore. Before wrapping up, is there anything else about your current research needs you’d like the founder to understand?",
+            "timestamp": "2025-07-14T07:55:41.2615418Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I would emphasize the need for seamless integration with our existing data systems to ensure smooth transitions, along with customizable templates tailored to our unique research objectives.",
+            "timestamp": "2025-07-14T07:55:44.365Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s incredibly helpful—customization and integration are crucial. Any final reflections or questions for the founder?",
+            "timestamp": "2025-07-14T07:55:50.3130531Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I’d love to discuss the scalability of Waal.ai—how it adapts as our research needs grow—and also learn more about the support and resources available for onboarding and training.",
+            "timestamp": "2025-07-14T07:55:58.22Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a great point to end on. Your questions about scalability and onboarding support will be valuable. Thank you for sharing your insights.",
+            "timestamp": "2025-07-14T07:56:02.57767Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Thank you for the opportunity to share my thoughts. I would suggest asking the founder about the specific onboarding processes in place for new users, as well as any ongoing support to ensure effective usage of Waal.ai’s capabilities.",
+            "timestamp": "2025-07-14T07:56:06.205Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Thank you so much for all your thoughtful insights—it’s been a pleasure speaking with you. We will pass your questions along to the team.",
+            "timestamp": "2025-07-14T07:56:09.5848567Z"
+          }
+        ],
+        "sentimentTimeline": [
+          {
+            "timestamp": "2025-07-14T07:54:34.526Z",
+            "sentiment": 0
+          }
+        ],
+        "tokenUsage": 500
+      }
+    }
+  ]
+}
