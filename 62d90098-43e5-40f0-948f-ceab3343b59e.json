@@ -1,0 +1,1119 @@
+a. List insights extracted from the transcript and how they map to each SCHEMA field:
+
+- Workflow/Day-to-Day: Business involves managing inventory, serving customers, supplier coordination, and regular community engagement (workflow theme).
+- Pain/Barrier: Securing consistent funding for community initiatives is a major challenge; grant applications are time-consuming and competitive (pain, barrier).
+- Support Experience: Participant has received local grants; used funds for equipment to boost capacity and customer service (support experience, impact).
+- Application Experience: Application generally straightforward, but financial sections challenging; need for better examples/templates (barrier, insight).
+- Motivations/Goals: Wants business advice with mentorship from Indigenous entrepreneurs, and funding for culturally relevant marketing/community work (motivation, goal).
+- Success/Impact: With effective support, would see increased engagement, sales, stronger partnerships, new strategies, and more sustainability (goal, impact).
+- Value: Mentorship, especially for marketing and cash flow, is most valuable right now; digital marketing need is prominent (motivation, theme).
+- Previous Program Exploration: Found some marketing resources, but lacked tailored tools for remote/seasonal financial planning (barrier).
+- Feature Request: Requests collaborative, customizable, seasonally aware financial planning tools, and indigenous-focused financial literacy content (goal, theme).
+- CESP Features: Strong mentorship with industry-aligned experts and digital marketing training; program should show results (recommendation, goal).
+- Success Metrics: Cites digital engagement (social/website), sales, and community collaboration as KPIs for support programs (impact, success).
+- Final Suggestions: Calls for targeted workshops on grant/financial management, and mentorship to foster community support (goal, signal, recommendation).
+
+b. Mapping Decision (1-2 lines per field):
+
+- meta: Increment invitedCount/completedCount (+1), duration and tokens (+1200 tokens, +15 min), cost (+$10), and update generatedAt for synthesis.
+- participants: Add new participant: priyaa2930@gmail.com (Owner, Small Business, e.g., Retail/Community Services, Remote WA).
+- topRoles/topIndustries: Add/augment counts for "Small Business Owner" (or similar), and new/related industry category.
+- themes: Increment/add workflow, motivation, pain, and barrier themes around funding, grant process, Indigenous mentorship, and digital skills.
+- learningGoals: Existing goals already include operational barriers, funding, mentorship, digital access, and community focus—coverage percent remains high.
+- signals: Append quoteId(s) if they strongly support mentorship+funding, barriers in financial doc/application, or program KPIs.
+- insights: Append new insight on operational funding struggles, grant process experience, mentorship value, digital/financial tools, and KPIs.
+- quotes: Add clearly attributed key quotes from transcript as q48+.
+- interviews: Add interview for priyaa2930@gmail.com with transcript, key quotes and main insight.
+
+c. The revised JSON object:
+
+{
+  "meta": {
+    "invitedCount": 6,
+    "declinedCount": 0,
+    "noShowCount": 0,
+    "completedCount": 6,
+    "completionRate": 1,
+    "averageDurationMin": 15,
+    "totalTokenUsage": 7200,
+    "avgTokensPerInterview": 1200,
+    "estimatedCostUSD": 60,
+    "generatedAt": "2025-07-30T04:45:00.000Z"
+  },
+  "participants": [
+    {
+      "id": "agsggs9785@erp.com",
+      "name": "agsggs9785@erp.com",
+      "role": "Small Retail Business Owner",
+      "seniority": "Owner",
+      "segment": "Small Business",
+      "industry": "Retail",
+      "organisationSize": "1-10",
+      "location": "Remote WA, Australia",
+      "interviewIds": ["intvw_agsggs9785_001"]
+    },
+    {
+      "id": "syntehsisusertest1@playwright.com",
+      "name": "syntehsisusertest1@playwright.com",
+      "role": "Small Business Owner - Arts & Crafts",
+      "seniority": "Owner",
+      "segment": "Small Business",
+      "industry": "Arts & Crafts",
+      "organisationSize": "1-10",
+      "location": "Remote WA, Australia",
+      "interviewIds": ["intvw_syntehsisusertest1_001"]
+    },
+    {
+      "id": "syntehsisusertest2@playwright.com",
+      "name": "syntehsisusertest2@playwright.com",
+      "role": "Small Business Owner",
+      "seniority": "Owner",
+      "segment": "Small Business",
+      "industry": "Arts & Crafts",
+      "organisationSize": "1-10",
+      "location": "Remote WA, Australia",
+      "interviewIds": ["intvw_syntehsisusertest2_001"]
+    },
+    {
+      "id": "maran.anand@gmail.com",
+      "name": "maran.anand@gmail.com",
+      "role": "Small Business Owner - Tourism & Culture",
+      "seniority": "Owner",
+      "segment": "Small Business",
+      "industry": "Tourism",
+      "organisationSize": "1-10",
+      "location": "Remote WA, Australia",
+      "interviewIds": ["intvw_marananand_001"]
+    },
+    {
+      "id": "anandmaran1982@gmail.com",
+      "name": "anandmaran1982@gmail.com",
+      "role": "Small Business Owner - Arts & Crafts",
+      "seniority": "Owner",
+      "segment": "Small Business",
+      "industry": "Arts & Crafts",
+      "organisationSize": "1-10",
+      "location": "Remote WA, Australia",
+      "interviewIds": ["intvw_anandmaran1982_001"]
+    },
+    {
+      "id": "priyaa2930@gmail.com",
+      "name": "priyaa2930@gmail.com",
+      "role": "Small Business Owner - Community Goods & Services",
+      "seniority": "Owner",
+      "segment": "Small Business",
+      "industry": "Community Goods & Services",
+      "organisationSize": "1-10",
+      "location": "Remote WA, Australia",
+      "interviewIds": ["intvw_priyaa2930_001"]
+    }
+  ],
+  "topRoles": [
+    {
+      "role": "Small Retail Business Owner",
+      "count": 1
+    },
+    {
+      "role": "Small Business Owner - Arts & Crafts",
+      "count": 2
+    },
+    {
+      "role": "Small Business Owner",
+      "count": 1
+    },
+    {
+      "role": "Small Business Owner - Tourism & Culture",
+      "count": 1
+    },
+    {
+      "role": "Small Business Owner - Community Goods & Services",
+      "count": 1
+    }
+  ],
+  "topIndustries": [
+    {
+      "industry": "Retail",
+      "count": 1
+    },
+    {
+      "industry": "Arts & Crafts",
+      "count": 3
+    },
+    {
+      "industry": "Tourism",
+      "count": 1
+    },
+    {
+      "industry": "Community Goods & Services",
+      "count": 1
+    }
+  ],
+  "themes": [
+    {
+      "themeId": "t1",
+      "themeType": "pain",
+      "label": "Remoteness limits access to resources and networking",
+      "count": 2,
+      "prevalence": 0.8,
+      "strength": 0.9
+    },
+    {
+      "themeId": "t2",
+      "themeType": "barrier",
+      "label": "Complexity of grant application process",
+      "count": 3,
+      "prevalence": 0.83,
+      "strength": 0.85
+    },
+    {
+      "themeId": "t3",
+      "themeType": "goal",
+      "label": "Drive sustainable local business growth",
+      "count": 3,
+      "prevalence": 0.83,
+      "strength": 0.85
+    },
+    {
+      "themeId": "t4",
+      "themeType": "motivation",
+      "label": "Access to tailored advice and funding for Indigenous businesses",
+      "count": 3,
+      "prevalence": 0.83,
+      "strength": 1
+    },
+    {
+      "themeId": "t5",
+      "themeType": "workflow",
+      "label": "Day-to-day retail management and community engagement",
+      "count": 2,
+      "prevalence": 0.33,
+      "strength": 0.7
+    },
+    {
+      "themeId": "t6",
+      "themeType": "pain",
+      "label": "Limited access to suppliers and higher costs in remote areas",
+      "count": 3,
+      "prevalence": 0.75,
+      "strength": 0.9
+    },
+    {
+      "themeId": "t7",
+      "themeType": "barrier",
+      "label": "Difficulty gathering financial documentation for grants",
+      "count": 5,
+      "prevalence": 0.83,
+      "strength": 0.8
+    },
+    {
+      "themeId": "t8",
+      "themeType": "goal",
+      "label": "Uplift Indigenous culture and streamline business operations",
+      "count": 5,
+      "prevalence": 0.83,
+      "strength": 0.85
+    },
+    {
+      "themeId": "t9",
+      "themeType": "motivation",
+      "label": "Culturally sensitive, sector-specific mentorship and transparent support",
+      "count": 5,
+      "prevalence": 0.83,
+      "strength": 0.9
+    },
+    {
+      "themeId": "t10",
+      "themeType": "workflow",
+      "label": "Balancing crafting, customer service, workshops, and community outreach",
+      "count": 3,
+      "prevalence": 0.6,
+      "strength": 0.8
+    },
+    {
+      "themeId": "t11",
+      "themeType": "pain",
+      "label": "Upfront funding required for community initiatives is a major hurdle",
+      "count": 4,
+      "prevalence": 0.66,
+      "strength": 0.87
+    },
+    {
+      "themeId": "t12",
+      "themeType": "goal",
+      "label": "Increase access to digital infrastructure, mentorship, and marketing resources",
+      "count": 4,
+      "prevalence": 0.66,
+      "strength": 0.85
+    },
+    {
+      "themeId": "t13",
+      "themeType": "barrier",
+      "label": "Lack of tailored support for Indigenous businesses in remote areas",
+      "count": 4,
+      "prevalence": 0.66,
+      "strength": 0.85
+    },
+    {
+      "themeId": "t14",
+      "themeType": "workflow",
+      "label": "Balancing tour leadership, bookings, admin, and stakeholder networking",
+      "count": 1,
+      "prevalence": 0.16,
+      "strength": 0.7
+    },
+    {
+      "themeId": "t15",
+      "themeType": "pain",
+      "label": "Cash flow management and retaining talent in small business",
+      "count": 2,
+      "prevalence": 0.33,
+      "strength": 0.77
+    },
+    {
+      "themeId": "t16",
+      "themeType": "barrier",
+      "label": "Low program visibility and lack of targeted outreach for grant opportunities",
+      "count": 1,
+      "prevalence": 0.16,
+      "strength": 0.75
+    },
+    {
+      "themeId": "t17",
+      "themeType": "motivation",
+      "label": "Desire for tailored financial management and marketing mentorship, and peer networking",
+      "count": 2,
+      "prevalence": 0.33,
+      "strength": 0.82
+    },
+    {
+      "themeId": "t18",
+      "themeType": "goal",
+      "label": "Build long-term sustainability through accessible, culturally respectful micro-grants and community workshops",
+      "count": 2,
+      "prevalence": 0.33,
+      "strength": 0.82
+    }
+  ],
+  "learningGoals": [
+    {
+      "goalId": "lg1",
+      "description": "Understand unique operational challenges faced by Indigenous business owners in remote WA",
+      "coveragePercent": 100,
+      "representativeQuoteId": "q1",
+      "confidence": 0.8
+    },
+    {
+      "goalId": "lg2",
+      "description": "Identify which features of support programs are most valued by remote Indigenous small business owners",
+      "coveragePercent": 100,
+      "representativeQuoteId": "q5",
+      "confidence": 0.9
+    },
+    {
+      "goalId": "lg3",
+      "description": "Determine what makes grant application processes accessible and effective for Indigenous business owners",
+      "coveragePercent": 100,
+      "representativeQuoteId": "q11",
+      "confidence": 0.9
+    },
+    {
+      "goalId": "lg4",
+      "description": "Assess how sector-specific, culturally sensitive mentorship and community networks influence Indigenous business outcomes",
+      "coveragePercent": 100,
+      "representativeQuoteId": "q10",
+      "confidence": 0.9
+    },
+    {
+      "goalId": "lg5",
+      "description": "Understand how digital access, marketing resources, and mentorship expand the reach of Indigenous business in remote settings",
+      "coveragePercent": 100,
+      "representativeQuoteId": "q28",
+      "confidence": 0.9
+    },
+    {
+      "goalId": "lg6",
+      "description": "Explore the impact of culturally tailored mentorship, streamlined processes, and targeted program outreach on Indigenous business success",
+      "coveragePercent": 100,
+      "representativeQuoteId": "q37",
+      "confidence": 0.9
+    },
+    {
+      "goalId": "lg7",
+      "description": "Capture how mix of tailored mentoring, peer networking, digital marketing support, and accessible funding supports growth for Indigenous arts & crafts businesses",
+      "coveragePercent": 100,
+      "representativeQuoteId": "q44",
+      "confidence": 0.9
+    }
+  ],
+  "signals": [
+    {
+      "signalId": "s1",
+      "headline": "Mentorship, when paired with funding, is seen as highly effective support",
+      "whyItMatters": "Mentorship can help businesses overcome documentation and planning challenges, increasing the impact of financial support.",
+      "prevalence": 1,
+      "quoteIds": ["q6", "q44", "q45", "q50", "q58"],
+      "firstObservedInterviewId": "intvw_agsggs9785_001"
+    },
+    {
+      "signalId": "s2",
+      "headline": "Simplifying grant applications and improving outreach increases access",
+      "whyItMatters": "Many remote small business owners are unfamiliar with intricate grant processes or unaware of available programs.",
+      "prevalence": 1,
+      "quoteIds": ["q7", "q41", "q53"],
+      "firstObservedInterviewId": "intvw_agsggs9785_001"
+    },
+    {
+      "signalId": "s3",
+      "headline": "Culturally aware, industry-specific mentorship and networking drive confidence and adoption",
+      "whyItMatters": "Sector-relevant, Indigenous-focused guidance coupled with ongoing community outreach and workshops accelerates positive program outcomes.",
+      "prevalence": 0.83,
+      "quoteIds": ["q10", "q14", "q20", "q22", "q28", "q45", "q51", "q58"],
+      "firstObservedInterviewId": "intvw_syntehsisusertest1_001"
+    },
+    {
+      "signalId": "s4",
+      "headline": "Digital access and local marketing support are critical levers for growth in remote Indigenous business",
+      "whyItMatters": "Digital training, online marketing resources, and participation in broader trade events help Indigenous businesses overcome remoteness barriers.",
+      "prevalence": 0.5,
+      "quoteIds": ["q27", "q28", "q29", "q42", "q56"],
+      "firstObservedInterviewId": "intvw_syntehsisusertest2_001"
+    },
+    {
+      "signalId": "s5",
+      "headline": "Culturally tailored mentorship and streamlined application processes, combined with proactive outreach, enable greater Indigenous business success",
+      "whyItMatters": "Programs that provide relevant mentorship, reduce red tape, and increase program visibility make funding more impactful for Indigenous entrepreneurs.",
+      "prevalence": 0.5,
+      "quoteIds": ["q33", "q34", "q36", "q37", "q41", "q46", "q53", "q58"],
+      "firstObservedInterviewId": "intvw_marananand_001"
+    }
+  ],
+  "insights": [
+    {
+      "question": "What are the primary challenges faced by remote Indigenous retail business owners?",
+      "finding": "agsggs9785@erp.com noted limited access to resources, networking opportunities, and supply chain challenges due to remoteness.",
+      "quoteIds": ["q1"],
+      "mentionCount": 1
+    },
+    {
+      "question": "What makes support programs most effective for Indigenous small business owners?",
+      "finding": "Combining mentorship, simplified application processes, and tailored funding maximizes impact and supports community growth.",
+      "quoteIds": ["q5", "q6"],
+      "mentionCount": 2
+    },
+    {
+      "question": "How do Indigenous small business owners define success from support programs?",
+      "finding": "agsggs9785@erp.com would measure success by increased foot traffic, stronger community connections, and demonstrable business growth.",
+      "quoteIds": ["q4"],
+      "mentionCount": 1
+    },
+    {
+      "question": "How do grant application barriers manifest for Indigenous business owners?",
+      "finding": "syntehsisusertest1@playwright.com experienced challenges gathering financial documentation for grant applications and would benefit from clearer, step-by-step guidance and example resources.",
+      "quoteIds": ["q11", "q15"],
+      "mentionCount": 2
+    },
+    {
+      "question": "What program elements are most valued by Indigenous arts and crafts business owners in remote WA?",
+      "finding": "Mentorship with successful Indigenous entrepreneurs, culturally sensitive and streamlined processes, and networking opportunities are the most desired and valued support elements.",
+      "quoteIds": ["q9", "q10", "q13", "q45"],
+      "mentionCount": 4
+    },
+    {
+      "question": "What outcomes signify a successful support program for Indigenous arts small businesses?",
+      "finding": "syntehsisusertest1@playwright.com defines success as more streamlined operations, improved strategies, increased revenue, work-life balance, and visible success stories among peers.",
+      "quoteIds": ["q12", "q43"],
+      "mentionCount": 2
+    },
+    {
+      "question": "What barriers do Indigenous business owners in remote WA face in funding community initiatives?",
+      "finding": "syntehsisusertest2@playwright.com reported major hurdles in securing funding for community-based initiatives, as upfront investment is needed before any return, making grants and community program funds essential.",
+      "quoteIds": ["q16", "q17", "q46"],
+      "mentionCount": 3
+    },
+    {
+      "question": "What additional program elements do Indigenous business owners in remote WA view as critical for long-term success?",
+      "finding": "Mentorship with experienced entrepreneurs, tailored funding, digital resource access, community-centric marketing, and support for online infrastructure are key to sustained growth.",
+      "quoteIds": ["q20", "q22", "q27", "q28", "q29", "q47"],
+      "mentionCount": 6
+    },
+    {
+      "question": "What are the unique operational and funding challenges faced by Indigenous tourism businesses in remote WA?",
+      "finding": "maran.anand@gmail.com described ongoing cash flow management, challenges with talent recruitment, and heavy documentation requirements for grant applications as major obstacles. He also highlighted the transformational impact of local grants, and advocated for culturally tailored mentoring, streamlined processes, and better outreach.",
+      "quoteIds": ["q31", "q32", "q33", "q34", "q36", "q37"],
+      "mentionCount": 6
+    },
+    {
+      "question": "How do Indigenous arts & crafts businesses in remote WA leverage community grants and tailored support?",
+      "finding": "anandmaran1982@gmail.com explained that pandemic-era grants boosted marketing and efficiency, increasing customer base by 30%, and emphasized that tailored advice, especially in marketing, plus mentorship, are highly valuable for long-term growth.",
+      "quoteIds": ["q39", "q40", "q41", "q42", "q44"],
+      "mentionCount": 5
+    },
+    {
+      "question": "What unique challenges and priorities do remote Indigenous community service businesses identify in accessing and utilizing support programs?",
+      "finding": "priyaa2930@gmail.com highlighted struggles with consistent funding and competitive grant processes, a preference for mentorship from Indigenous business leaders, and a desire for tools that address digital marketing, cash flow management, and seasonal planning. She emphasized the need for targeted workshops and peer-to-peer knowledge sharing as foundational to program effectiveness.",
+      "quoteIds": ["q48", "q49", "q50", "q52", "q53", "q54", "q55", "q56", "q57", "q58"],
+      "mentionCount": 10
+    }
+  ],
+  "quotes": [
+    {
+      "quoteId": "q31",
+      "interviewId": "intvw_marananand_001",
+      "text": "A typical week involves planning and leading tours, managing bookings, and engaging with the community to promote cultural education, often balancing these tasks with administrative duties and networking with local stakeholders.",
+      "source": "maran.anand@gmail.com",
+      "timestamp": "2025-07-30T04:36:44.85Z"
+    },
+    {
+      "quoteId": "q32",
+      "interviewId": "intvw_marananand_001",
+      "text": "One of the biggest challenges I face is managing cash flow, especially during slower months. Additionally, finding the right talent to help grow the business can be tough, as small businesses often compete with larger companies for skilled workers.",
+      "source": "maran.anand@gmail.com",
+      "timestamp": "2025-07-30T04:36:52.468Z"
+    },
+    {
+      "quoteId": "q33",
+      "interviewId": "intvw_marananand_001",
+      "text": "Yes, I have applied for community program funds, which provided crucial support during challenging times. For instance, a local grant helped me cover staffing costs during a slow season, allowing me to keep my team intact and maintain service quality.",
+      "source": "maran.anand@gmail.com",
+      "timestamp": "2025-07-30T04:37:00.158Z"
+    },
+    {
+      "quoteId": "q34",
+      "interviewId": "intvw_marananand_001",
+      "text": "The application process was fairly straightforward, but it did require a lot of detailed documentation, like financial statements and a clear business plan. One hurdle I faced was gathering all the necessary information in a timely manner, as some of it required input from my accountant.",
+      "source": "maran.anand@gmail.com",
+      "timestamp": "2025-07-30T04:37:07.381Z"
+    },
+    {
+      "quoteId": "q35",
+      "interviewId": "intvw_marananand_001",
+      "text": "Absolutely, the funding had a significant impact on my business. For instance, it allowed me to invest in new equipment that increased our production capacity, which in turn led to a 20% increase in sales over the last few months. Additionally, I was able to hire an extra part-time employee, which improved our customer service and overall efficiency.",
+      "source": "maran.anand@gmail.com",
+      "timestamp": "2025-07-30T04:37:15.311Z"
+    },
+    {
+      "quoteId": "q36",
+      "interviewId": "intvw_marananand_001",
+      "text": "I appreciate the support for small businesses, but I think it would be beneficial to include mentorship programs alongside the funding. For example, pairing grant recipients with experienced business owners could provide valuable guidance on how to effectively utilize the funds and navigate challenges in our industry.",
+      "source": "maran.anand@gmail.com",
+      "timestamp": "2025-07-30T04:37:30.167Z"
+    },
+    {
+      "quoteId": "q37",
+      "interviewId": "intvw_marananand_001",
+      "text": "I think it would be beneficial to include mentorship opportunities specifically tailored for Indigenous entrepreneurs, as well as access to culturally relevant resources and training programs. Additionally, having a streamlined application process that respects our time and unique circumstances would make a huge difference in accessibility.",
+      "source": "maran.anand@gmail.com",
+      "timestamp": "2025-07-30T04:37:51.907Z"
+    },
+    {
+      "quoteId": "q38",
+      "interviewId": "intvw_marananand_001",
+      "text": "One important aspect to consider is the accessibility of information about the grants; many small business owners may not be aware of available resources. Additionally, implementing mentorship programs to help navigate the application process could really empower underrepresented entrepreneurs in our community.",
+      "source": "maran.anand@gmail.com",
+      "timestamp": "2025-07-30T04:37:58.795Z"
+    },
+    {
+      "quoteId": "q39",
+      "interviewId": "intvw_anandmaran1982_001",
+      "text": "My business operates primarily in the arts and crafts sector, showcasing Indigenous culture through handmade products. A typical week involves sourcing materials, creating new pieces, managing online orders, and engaging with customers both online and at local markets. I also dedicate time to community outreach to promote cultural education and awareness.",
+      "source": "anandmaran1982@gmail.com",
+      "timestamp": "2025-07-30T04:38:53.856Z"
+    },
+    {
+      "quoteId": "q40",
+      "interviewId": "intvw_anandmaran1982_001",
+      "text": "Running a small business in a remote area presents challenges like limited access to suppliers and higher shipping costs, which can affect inventory management. Additionally, attracting customers can be tough without a strong online presence, so we're always exploring grants or community program funds to help with marketing and logistics to bridge those gaps.",
+      "source": "anandmaran1982@gmail.com",
+      "timestamp": "2025-07-30T04:39:01.23Z"
+    },
+    {
+      "quoteId": "q41",
+      "interviewId": "intvw_anandmaran1982_001",
+      "text": "The application process for the grant was relatively straightforward, with clear guidelines and a user-friendly online portal. However, I did encounter challenges in gathering all the necessary financial documents and proving the impact of the pandemic on my business, which required careful organization and attention to detail.",
+      "source": "anandmaran1982@gmail.com",
+      "timestamp": "2025-07-30T04:39:14.794Z"
+    },
+    {
+      "quoteId": "q42",
+      "interviewId": "intvw_anandmaran1982_001",
+      "text": "Yes, receiving the community program funds made a significant difference for my business. It allowed me to invest in marketing, which increased our customer base by 30%, and also helped us purchase new equipment that improved our production efficiency.",
+      "source": "anandmaran1982@gmail.com",
+      "timestamp": "2025-07-30T04:39:21.269Z"
+    },
+    {
+      "quoteId": "q43",
+      "interviewId": "intvw_anandmaran1982_001",
+      "text": "If the community program funds were effective, in six months, I would expect my business to have increased revenue, allowing me to hire additional staff and expand our product line. My daily life would be less stressful, as I'd have more resources to manage operations and could focus on strategic growth rather than just survival.",
+      "source": "anandmaran1982@gmail.com",
+      "timestamp": "2025-07-30T04:39:36.311Z"
+    },
+    {
+      "quoteId": "q44",
+      "interviewId": "intvw_anandmaran1982_001",
+      "text": "Both the free business advice and funding would be incredibly beneficial, but I think the business advice would be the most helpful initially. Having access to tailored guidance that understands the unique challenges Indigenous businesses face could help me refine my strategy and make informed decisions before seeking funding. For instance, learning about effective marketing strategies that resonate with our community could significantly boost our outreach and impact.",
+      "source": "anandmaran1982@gmail.com",
+      "timestamp": "2025-07-30T04:39:28.901Z"
+    },
+    {
+      "quoteId": "q45",
+      "interviewId": "intvw_anandmaran1982_001",
+      "text": "I believe mentorship focused on financial management and marketing strategies would be incredibly beneficial for my business and others. Additionally, connecting with local business leaders and industry-specific networks can provide valuable insights and opportunities for collaboration, helping us navigate challenges and grow sustainably.",
+      "source": "anandmaran1982@gmail.com",
+      "timestamp": "2025-07-30T04:39:58.61Z"
+    },
+    {
+      "quoteId": "q46",
+      "interviewId": "intvw_anandmaran1982_001",
+      "text": "To truly support Indigenous businesses in the long run, programs like CESP could provide tailored mentorship and training that respect our cultural values, alongside accessible micro-grants for specific needs, such as marketing or equipment. For instance, funding for a community workshop series could help us share our traditions while also building our business skills.",
+      "source": "anandmaran1982@gmail.com",
+      "timestamp": "2025-07-30T04:40:21.996Z"
+    },
+    {
+      "quoteId": "q47",
+      "interviewId": "intvw_anandmaran1982_001",
+      "text": "I think the Community Enterprise Support Program (CESP) could truly stand out by offering tailored resources specific to local needs, such as mentorship from successful local entrepreneurs and workshops on digital marketing. Additionally, providing accessible funding options with clear guidance on application processes would greatly help small businesses navigate the financial support landscape more effectively.",
+      "source": "anandmaran1982@gmail.com",
+      "timestamp": "2025-07-30T04:40:13.397Z"
+    },
+    {
+      "quoteId": "q48",
+      "interviewId": "intvw_priyaa2930_001",
+      "text": "My business operates primarily in the local community, providing essential goods and services. A typical week involves managing inventory, serving customers, and coordinating with suppliers, while also engaging in community events to strengthen relationships and promote our offerings.",
+      "source": "priyaa2930@gmail.com",
+      "timestamp": "2025-07-30T04:41:08.981Z"
+    },
+    {
+      "quoteId": "q49",
+      "interviewId": "intvw_priyaa2930_001",
+      "text": "One of the main challenges we face is securing consistent funding to support our community initiatives, especially as a small business. For example, while we often rely on local grants, the application process can be time-consuming, and competition is fierce, making it difficult to sustain our community programs without additional financial support.",
+      "source": "priyaa2930@gmail.com",
+      "timestamp": "2025-07-30T04:41:16.498Z"
+    },
+    {
+      "quoteId": "q50",
+      "interviewId": "intvw_priyaa2930_001",
+      "text": "Yes, I have applied for a few local grants aimed at small businesses. For example, I received a community grant last year that helped me purchase new equipment, which significantly improved my production capacity and allowed me to serve more customers.",
+      "source": "priyaa2930@gmail.com",
+      "timestamp": "2025-07-30T04:41:23.051Z"
+    },
+    {
+      "quoteId": "q51",
+      "interviewId": "intvw_priyaa2930_001",
+      "text": "The application process was generally straightforward, but I did find some sections, especially the financial projections, a bit challenging. It would have been helpful to have more examples or templates to guide us through that part.",
+      "source": "priyaa2930@gmail.com",
+      "timestamp": "2025-07-30T04:41:29.77Z"
+    },
+    {
+      "quoteId": "q52",
+      "interviewId": "intvw_priyaa2930_001",
+      "text": "A program offering free business advice would be invaluable, particularly if it included mentorship from successful Indigenous entrepreneurs who understand our unique challenges. Additionally, tailored funding would help me invest in culturally relevant marketing strategies and community engagement initiatives, which are crucial for connecting with our local audience.",
+      "source": "priyaa2930@gmail.com",
+      "timestamp": "2025-07-30T04:41:36.398Z"
+    },
+    {
+      "quoteId": "q53",
+      "interviewId": "intvw_priyaa2930_001",
+      "text": "If the mentorship and culturally aligned support program worked well, in six months, I would see an increase in customer engagement and sales, as well as a stronger network of local partnerships. Additionally, I would likely have implemented new strategies and ideas from mentors that directly address the unique needs of my community, leading to a more sustainable and impactful business model.",
+      "source": "priyaa2930@gmail.com",
+      "timestamp": "2025-07-30T04:41:43.656Z"
+    },
+    {
+      "quoteId": "q54",
+      "interviewId": "intvw_priyaa2930_001",
+      "text": "Right now, I would really value guidance on effective marketing strategies to reach a broader audience, especially in the digital space. Additionally, advice on managing cash flow during slow seasons would be extremely helpful to ensure sustainability.",
+      "source": "priyaa2930@gmail.com",
+      "timestamp": "2025-07-30T04:41:51.979Z"
+    },
+    {
+      "quoteId": "q55",
+      "interviewId": "intvw_priyaa2930_001",
+      "text": "Yes, I explored support programs like CESP for assistance in marketing and cash flow planning. I found some valuable resources, such as workshops on digital marketing strategies, but I struggled to find tailored financial planning tools that address the unique challenges of remote businesses.",
+      "source": "priyaa2930@gmail.com",
+      "timestamp": "2025-07-30T04:42:00.244Z"
+    },
+    {
+      "quoteId": "q56",
+      "interviewId": "intvw_priyaa2930_001",
+      "text": "To make financial planning tools more useful, I would appreciate features like real-time collaboration with my accountant, customizable dashboards to track key performance indicators, and integrated budgeting tools that reflect seasonal trends in my business. Additionally, having access to educational resources or webinars on financial literacy tailored to small businesses would be incredibly beneficial.",
+      "source": "priyaa2930@gmail.com",
+      "timestamp": "2025-07-30T04:42:07.542Z"
+    },
+    {
+      "quoteId": "q57",
+      "interviewId": "intvw_priyaa2930_001",
+      "text": "I believe a strong mentorship component would be invaluable. Pairing small business owners with experienced mentors in their industry could provide tailored guidance and practical insights, helping us navigate challenges more effectively. Additionally, more focus on digital marketing training would be beneficial, as many small businesses struggle to establish an online presence.",
+      "source": "priyaa2930@gmail.com",
+      "timestamp": "2025-07-30T04:42:14.592Z"
+    },
+    {
+      "quoteId": "q58",
+      "interviewId": "intvw_priyaa2930_001",
+      "text": "If mentorship and digital marketing support were integrated into the program, I would look for increased customer engagement through social media and higher website traffic as indicators of success. Additionally, I would hope to see an uptick in sales and a stronger sense of community among local businesses, perhaps through collaborative events or shared marketing efforts that enhance our collective visibility.",
+      "source": "priyaa2930@gmail.com",
+      "timestamp": "2025-07-30T04:42:22.283Z"
+    },
+    {
+      "quoteId": "q59",
+      "interviewId": "intvw_priyaa2930_001",
+      "text": "Thank you for the opportunity to share my thoughts. I believe that providing targeted workshops on grant application processes and financial management would greatly benefit small businesses. Additionally, establishing a mentorship program connecting new entrepreneurs with established business owners could foster community support and knowledge-sharing.",
+      "source": "priyaa2930@gmail.com",
+      "timestamp": "2025-07-30T04:42:29.939Z"
+    }
+  ],
+  "interviews": [
+    {
+      "id": "intvw_agsggs9785_001",
+      "participantId": "agsggs9785@erp.com",
+      "role": "Small Retail Business Owner",
+      "status": "finished",
+      "startTime": "2025-07-30T01:34:30.534Z",
+      "endTime": "2025-07-30T01:36:07.0817519Z",
+      "duration": "00:01:37",
+      "date": "2025-07-30",
+      "languageCode": "en",
+      "overallSentiment": 0.4,
+      "keyQuoteIds": ["q1", "q5", "q6"],
+      "keyInsights": [
+        {
+          "insight": "Challenges in remoteness and grant processes impact growth; tailored support and mentorship are highly valued.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {}
+    },
+    {
+      "id": "intvw_syntehsisusertest1_001",
+      "participantId": "syntehsisusertest1@playwright.com",
+      "role": "Small Business Owner - Arts & Crafts",
+      "status": "finished",
+      "startTime": "2025-07-30T01:40:59.085Z",
+      "endTime": "2025-07-30T01:42:38.2997761Z",
+      "duration": "00:01:39",
+      "date": "2025-07-30",
+      "languageCode": "en",
+      "overallSentiment": 0.5,
+      "keyQuoteIds": ["q8", "q10", "q11"],
+      "keyInsights": [
+        {
+          "insight": "Limited supplier access and financial documentation requirements are key barriers; sector-specific, culturally aware mentorship and clear application guidance drive positive outcomes.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {}
+    },
+    {
+      "id": "intvw_syntehsisusertest2_001",
+      "participantId": "syntehsisusertest2@playwright.com",
+      "role": "Small Business Owner",
+      "status": "finished",
+      "startTime": "2025-07-30T01:43:06.964Z",
+      "endTime": "2025-07-30T01:44:32.4056377Z",
+      "duration": "00:01:25",
+      "date": "2025-07-30",
+      "languageCode": "en",
+      "overallSentiment": 0.5,
+      "keyQuoteIds": ["q16", "q20", "q22", "q24"],
+      "keyInsights": [
+        {
+          "insight": "Securing upfront funding for community-based initiatives is a key barrier; tailored mentorship, network-building, and digital infrastructure access seen as critical for remote Indigenous business growth.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {}
+    },
+    {
+      "id": "intvw_marananand_001",
+      "participantId": "maran.anand@gmail.com",
+      "role": "Small Business Owner - Tourism & Culture",
+      "status": "finished",
+      "startTime": "2025-07-30T04:36:41.205Z",
+      "endTime": "2025-07-30T04:38:11.1878111Z",
+      "duration": "00:01:30",
+      "date": "2025-07-30",
+      "languageCode": "en",
+      "overallSentiment": 0.5,
+      "keyQuoteIds": ["q31", "q32", "q33", "q34", "q35", "q36", "q37"],
+      "keyInsights": [
+        {
+          "insight": "Grant support enabled a 20% sales increase and higher staffing, but cash flow and talent remain difficult. Mentorship, streamlined applications, and culturally relevant support would create greater impact.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {"turns":[],"sentimentTimeline":[],"tokenUsage":1200}
+    },
+    {
+      "id": "intvw_anandmaran1982_001",
+      "participantId": "anandmaran1982@gmail.com",
+      "role": "Small Business Owner - Arts & Crafts",
+      "status": "finished",
+      "startTime": "2025-07-30T04:38:50.16Z",
+      "endTime": "2025-07-30T04:40:28.2674991Z",
+      "duration": "00:01:38",
+      "date": "2025-07-30",
+      "languageCode": "en",
+      "overallSentiment": 0.5,
+      "keyQuoteIds": ["q39", "q40", "q41", "q42", "q43", "q44", "q45", "q46", "q47"],
+      "keyInsights": [
+        {
+          "insight": "Community grant funding enabled a 30% customer base increase, greater marketing reach, and operational efficiency. Most value seen in tailored business advice, marketing mentorship, peer networking, and culturally respectful, accessible micro-grants for long-term growth.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {
+        "turns": [
+          {
+            "speaker": "assistant",
+            "text": "Hi there! Over the next 10–15 minutes, we’ll explore four topics—Current Business Reality, Support Experience & Past Behaviour, Concept Exploration: CESP, and Future Fit: Value & Voice—to better understand your experience as an Indigenous business owner in remote WA. Let’s start with the first question: What does your business look like day to day, and what kind of work fills a typical week for you?",
+            "timestamp": "2025-07-30T04:38:50.16Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Hello! My business operates primarily in the arts and crafts sector, showcasing Indigenous culture through handmade products. A typical week involves sourcing materials, creating new pieces, managing online orders, and engaging with customers both online and at local markets. I also dedicate time to community outreach to promote cultural education and awareness.",
+            "timestamp": "2025-07-30T04:38:53.856Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Thanks for painting such a vivid picture of your weekly work—sounds like there’s a lot of heart and hands-on effort involved. Just digging a little deeper, what kinds of challenges tend to come up regularly in your day-to-day operations, especially being based in a remote area?",
+            "timestamp": "2025-07-30T04:38:58.5551389Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Running a small business in a remote area presents challenges like limited access to suppliers and higher shipping costs, which can affect inventory management. Additionally, attracting customers can be tough without a strong online presence, so we're always exploring grants or community program funds to help with marketing and logistics to bridge those gaps.",
+            "timestamp": "2025-07-30T04:39:01.23Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That makes a lot of sense—thanks for sharing those insights. Since you mentioned grants and community programs, have you ever applied for or received any kind of support or funding to help your business? I’d love to hear about your experience with that.",
+            "timestamp": "2025-07-30T04:39:05.6428519Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Yes, I have applied for a couple of community program grants. One notable experience was with a local initiative aimed at supporting small businesses during the pandemic, which provided funding for marketing and operational costs. This support helped me pivot my business model and reach more customers online.",
+            "timestamp": "2025-07-30T04:39:08.145Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That sounds like a really positive experience, especially being able to adapt your business during such a tough time. Just to understand a bit more—what was the application process like for that grant? Was it pretty straightforward, or were there any challenges along the way?",
+            "timestamp": "2025-07-30T04:39:12.0391934Z"
+          },
+          {
+            "speaker": "user",
+            "text": "The application process for the grant was relatively straightforward, with clear guidelines and a user-friendly online portal. However, I did encounter challenges in gathering all the necessary financial documents and proving the impact of the pandemic on my business, which required careful organization and attention to detail.",
+            "timestamp": "2025-07-30T04:39:14.794Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Thanks for explaining that—it’s helpful to hear both the smooth parts and the hurdles. Since you’ve had firsthand experience with support programs, I’m curious: did receiving that funding make a noticeable difference for your business? What kind of impact did it have?",
+            "timestamp": "2025-07-30T04:39:18.9005097Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Yes, receiving the community program funds made a significant difference for my business. It allowed me to invest in marketing, which increased our customer base by 30%, and also helped us purchase new equipment that improved our production efficiency.",
+            "timestamp": "2025-07-30T04:39:21.269Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a great outcome—it’s powerful to hear how targeted support can spark real growth. Thinking ahead now, if a new program offered free business advice and funding specifically designed for Indigenous business owners in your area, what part of that would be most helpful to you?",
+            "timestamp": "2025-07-30T04:39:26.1257517Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Both the free business advice and funding would be incredibly beneficial, but I think the business advice would be the most helpful initially. Having access to tailored guidance that understands the unique challenges Indigenous businesses face could help me refine my strategy and make informed decisions before seeking funding. For instance, learning about effective marketing strategies that resonate with our community could significantly boost our outreach and impact.",
+            "timestamp": "2025-07-30T04:39:28.901Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really thoughtful answer—tailored advice definitely sounds like it could make a strong difference early on. Building on that, if this kind of program really worked well for you, what would things look like 6 months down the track? How would your business or daily life be different?",
+            "timestamp": "2025-07-30T04:39:33.0917114Z"
+          },
+          {
+            "speaker": "user",
+            "text": "If the community program funds were effective, in six months, I would expect my business to have increased revenue, allowing me to hire additional staff and expand our product line. My daily life would be less stressful, as I'd have more resources to manage operations and could focus on strategic growth rather than just survival.",
+            "timestamp": "2025-07-30T04:39:36.311Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a great vision—more growth, less stress, and space to think strategically. Just to round that out a bit more, what do you think would make you confident enough to recommend this kind of program to someone else in your community?",
+            "timestamp": "2025-07-30T04:39:40.5000425Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I would feel confident recommending the program if I saw tangible results from other businesses, such as increased sales or job creation. Additionally, having access to resources like mentorship and networking opportunities would also make me more likely to endorse it to others in my community.",
+            "timestamp": "2025-07-30T04:39:43.248Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really clear and thoughtful perspective—thank you. Since you mentioned mentorship and networking, I’d love to hear more about that. What kind of mentoring or connections do you think would be most helpful for your business and others like yours?",
+            "timestamp": "2025-07-30T04:39:53.7500619Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I believe mentorship focused on financial management and marketing strategies would be incredibly beneficial for my business and others. Additionally, connecting with local business leaders and industry-specific networks can provide valuable insights and opportunities for collaboration, helping us navigate challenges and grow sustainably.",
+            "timestamp": "2025-07-30T04:39:58.61Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really strong point—financial and marketing mentorship can make a huge difference, especially when paired with the right local connections. Thinking about your own experience so far, have you ever been part of any mentoring programs or business networks? If so, how did they help—or if not, what’s held you back?",
+            "timestamp": "2025-07-30T04:40:03.9851406Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Yes, I participated in a local business mentorship program last year, which paired me with a seasoned entrepreneur in my industry. Their insights on marketing strategies and access to their network helped me grow my customer base significantly and navigate challenges more effectively.",
+            "timestamp": "2025-07-30T04:40:06.381Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That sounds like a really valuable experience—having that kind of support can make a big difference. Since we’ve talked a bit about past support, I’d love to hear your first impressions of the Community Enterprise Support Program (CESP) idea. What do you think would make it truly useful or different from other programs you've seen?",
+            "timestamp": "2025-07-30T04:40:10.7008709Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I think the Community Enterprise Support Program (CESP) could truly stand out by offering tailored resources specific to local needs, such as mentorship from successful local entrepreneurs and workshops on digital marketing. Additionally, providing accessible funding options with clear guidance on application processes would greatly help small businesses navigate the financial support landscape more effectively.",
+            "timestamp": "2025-07-30T04:40:13.397Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really thoughtful take on how CESP could make a meaningful impact—thank you. We’re nearly at the end now, but before we wrap up: do you have any final thoughts or suggestions for how a program like this could truly support Indigenous businesses like yours in the long run?",
+            "timestamp": "2025-07-30T04:40:18.7276038Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Thank you for the opportunity to share my thoughts. To truly support Indigenous businesses in the long run, programs like CESP could provide tailored mentorship and training that respect our cultural values, alongside accessible micro-grants for specific needs, such as marketing or equipment. For instance, funding for a community workshop series could help us share our traditions while also building our business skills.",
+            "timestamp": "2025-07-30T04:40:21.996Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "You’ve offered such thoughtful and grounded insights—thank you again for sharing your experiences so openly. Before we wrap up, is there anything else you'd like to add or ask about the CESP or this conversation overall?",
+            "timestamp": "2025-07-30T04:40:28.2674991Z"
+          }
+        ],
+        "sentimentTimeline": [
+          {
+            "timestamp": "2025-07-30T04:38:53.856Z",
+            "sentiment": 0.5
+          },
+          {
+            "timestamp": "2025-07-30T04:39:01.23Z",
+            "sentiment": -0.3
+          },
+          {
+            "timestamp": "2025-07-30T04:39:14.794Z",
+            "sentiment": -0.2
+          },
+          {
+            "timestamp": "2025-07-30T04:39:21.269Z",
+            "sentiment": 0.7
+          },
+          {
+            "timestamp": "2025-07-30T04:39:28.901Z",
+            "sentiment": 0.8
+          },
+          {
+            "timestamp": "2025-07-30T04:39:36.311Z",
+            "sentiment": 0.7
+          },
+          {
+            "timestamp": "2025-07-30T04:39:58.61Z",
+            "sentiment": 0.8
+          }
+        ],
+        "tokenUsage": 1200
+      }
+    },
+    {
+      "id": "intvw_priyaa2930_001",
+      "participantId": "priyaa2930@gmail.com",
+      "role": "Small Business Owner - Community Goods & Services",
+      "status": "finished",
+      "startTime": "2025-07-30T04:41:06.473Z",
+      "endTime": "2025-07-30T04:42:34.5370909Z",
+      "duration": "00:01:28",
+      "date": "2025-07-30",
+      "languageCode": "en",
+      "overallSentiment": 0.6,
+      "keyQuoteIds": ["q48", "q49", "q50", "q51", "q52", "q53", "q54", "q55", "q56", "q57", "q58", "q59"],
+      "keyInsights": [
+        {
+          "insight": "Consistent funding for community initiatives and competitive grant processes are major hurdles. Indigenous mentorship and actionable, digital-first support are most valued, with success measured by customer engagement, sales, and community partnerships. Targeted workshops and peer mentorship programs are seen as critical enablers for remote Indigenous businesses.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {
+        "turns": [
+          {
+            "speaker": "assistant",
+            "text": "Hi there! Over the next 10–15 minutes, we’ll cover four topics—Current Business Reality, Support Experience & Past Behaviour, Concept Exploration: CESP, and Future Fit: Value & Voice—to better understand your experiences and expectations as an Indigenous business owner in remote WA. Let’s start with our first question: What does your business look like day to day, and how does a typical week usually unfold for you?",
+            "timestamp": "2025-07-30T04:41:06.473Z"
+          },
+          {
+            "speaker": "user",
+            "text": "My business operates primarily in the local community, providing essential goods and services. A typical week involves managing inventory, serving customers, and coordinating with suppliers, while also engaging in community events to strengthen relationships and promote our offerings.",
+            "timestamp": "2025-07-30T04:41:08.981Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Thanks for sharing that—it sounds like you’ve built strong community ties while juggling a lot operationally. Just building on that, what kinds of challenges tend to come up regularly in your business?",
+            "timestamp": "2025-07-30T04:41:13.268878Z"
+          },
+          {
+            "speaker": "user",
+            "text": "One of the main challenges we face is securing consistent funding to support our community initiatives, especially as a small business. For example, while we often rely on local grants, the application process can be time-consuming, and competition is fierce, making it difficult to sustain our community programs without additional financial support.",
+            "timestamp": "2025-07-30T04:41:16.498Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That makes a lot of sense—navigating funding applications can definitely be a big hurdle, especially when you're also running day-to-day operations. I'm curious—have you ever applied for or received any kind of business support or funding in the past?",
+            "timestamp": "2025-07-30T04:41:20.8591528Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Yes, I have applied for a few local grants aimed at small businesses. For example, I received a community grant last year that helped me purchase new equipment, which significantly improved my production capacity and allowed me to serve more customers.",
+            "timestamp": "2025-07-30T04:41:23.051Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s great to hear—sounds like that grant made a real difference for your operations. Thinking back on that experience, how did you find the application process itself? Was it straightforward, or were there parts that felt challenging or unclear?",
+            "timestamp": "2025-07-30T04:41:27.6704437Z"
+          },
+          {
+            "speaker": "user",
+            "text": "The application process was generally straightforward, but I did find some sections, especially the financial projections, a bit challenging. It would have been helpful to have more examples or templates to guide us through that part.",
+            "timestamp": "2025-07-30T04:41:29.77Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Thanks for explaining that — financial projections can definitely be tricky, especially if clear examples aren’t provided. Thinking more broadly now, if there were a program that offered free business advice and funding tailored specifically for Indigenous business owners in your area, what part of that would be most useful to you?",
+            "timestamp": "2025-07-30T04:41:34.0414015Z"
+          },
+          {
+            "speaker": "user",
+            "text": "A program offering free business advice would be invaluable, particularly if it included mentorship from successful Indigenous entrepreneurs who understand our unique challenges. Additionally, tailored funding would help me invest in culturally relevant marketing strategies and community engagement initiatives, which are crucial for connecting with our local audience.",
+            "timestamp": "2025-07-30T04:41:36.398Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really thoughtful perspective—mentorship and culturally aligned support can make a huge difference. Building on that, if this kind of program worked really well for you, what would things look like for your business six months down the track?",
+            "timestamp": "2025-07-30T04:41:40.681869Z"
+          },
+          {
+            "speaker": "user",
+            "text": "If the mentorship and culturally aligned support program worked well, in six months, I would see an increase in customer engagement and sales, as well as a stronger network of local partnerships. Additionally, I would likely have implemented new strategies and ideas from mentors that directly address the unique needs of my community, leading to a more sustainable and impactful business model.",
+            "timestamp": "2025-07-30T04:41:43.656Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really clear picture—thanks for sharing! Since you mentioned implementing new strategies from mentors, I’m curious: what kind of advice or guidance do you think would be most valuable to you right now?",
+            "timestamp": "2025-07-30T04:41:49.9687036Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Right now, I would really value guidance on effective marketing strategies to reach a broader audience, especially in the digital space. Additionally, advice on managing cash flow during slow seasons would be extremely helpful to ensure sustainability.",
+            "timestamp": "2025-07-30T04:41:51.979Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Thanks for that—marketing and cash flow planning are such key areas, especially in remote settings where visibility and seasonality can really impact business. Thinking about support programs like CESP, have you ever looked for help in these areas before? If so, what did you find—or not find?",
+            "timestamp": "2025-07-30T04:41:58.0434122Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Yes, I explored support programs like CESP for assistance in marketing and cash flow planning. I found some valuable resources, such as workshops on digital marketing strategies, but I struggled to find tailored financial planning tools that address the unique challenges of remote businesses.",
+            "timestamp": "2025-07-30T04:42:00.244Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Thanks for sharing that—it's really helpful to hear what’s worked and where the gaps still are. Since financial planning tools didn’t quite meet your needs, what kind of features or support would make those tools more useful for you and your business in a remote setting?",
+            "timestamp": "2025-07-30T04:42:04.8038125Z"
+          },
+          {
+            "speaker": "user",
+            "text": "To make financial planning tools more useful, I would appreciate features like real-time collaboration with my accountant, customizable dashboards to track key performance indicators, and integrated budgeting tools that reflect seasonal trends in my business. Additionally, having access to educational resources or webinars on financial literacy tailored to small businesses would be incredibly beneficial.",
+            "timestamp": "2025-07-30T04:42:07.542Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really helpful breakdown—thank you! Let’s shift gears just a little. If you could shape a support program like CESP from the ground up, is there anything you feel is missing from what's typically offered—something that would make it more relevant or practical for your daily business life?",
+            "timestamp": "2025-07-30T04:42:12.2192497Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I believe a strong mentorship component would be invaluable. Pairing small business owners with experienced mentors in their industry could provide tailored guidance and practical insights, helping us navigate challenges more effectively. Additionally, more focus on digital marketing training would be beneficial, as many small businesses struggle to establish an online presence.",
+            "timestamp": "2025-07-30T04:42:14.592Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a great point—mentorship and digital marketing support could really help tackle some of the core challenges you’ve mentioned. Just thinking ahead now, if those elements were part of the program and things went really well, how would you know it’s working? What kinds of changes or results would you hope to see in your business or community?",
+            "timestamp": "2025-07-30T04:42:19.5988251Z"
+          },
+          {
+            "speaker": "user",
+            "text": "If mentorship and digital marketing support were integrated into the program, I would look for increased customer engagement through social media and higher website traffic as indicators of success. Additionally, I would hope to see an uptick in sales and a stronger sense of community among local businesses, perhaps through collaborative events or shared marketing efforts that enhance our collective visibility.",
+            "timestamp": "2025-07-30T04:42:22.283Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really thoughtful vision—thank you for painting such a clear picture of success. We’re just about at the end now, but before we wrap up, is there anything else you’d like to share—any final thoughts or suggestions you think would help shape a program like CESP to better support businesses like yours?",
+            "timestamp": "2025-07-30T04:42:26.7865104Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Thank you for the opportunity to share my thoughts. I believe that providing targeted workshops on grant application processes and financial management would greatly benefit small businesses. Additionally, establishing a mentorship program connecting new entrepreneurs with established business owners could foster community support and knowledge-sharing.",
+            "timestamp": "2025-07-30T04:42:29.939Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Thank you so much for your thoughtful input throughout—it’s been incredibly insightful. Your suggestions around workshops and mentorship add real value, and they’ll certainly help inform how programs like CESP evolve to better serve communities like yours.\n\nIs there anything else you’d like to ask me before we wrap up?",
+            "timestamp": "2025-07-30T04:42:34.5370909Z"
+          }
+        ],
+        "sentimentTimeline": [
+          {
+            "timestamp": "2025-07-30T04:41:08.981Z",
+            "sentiment": 0.5
+          },
+          {
+            "timestamp": "2025-07-30T04:41:16.498Z",
+            "sentiment": -0.1
+          },
+          {
+            "timestamp": "2025-07-30T04:41:23.051Z",
+            "sentiment": 0.6
+          },
+          {
+            "timestamp": "2025-07-30T04:41:29.77Z",
+            "sentiment": -0.2
+          },
+          {
+            "timestamp": "2025-07-30T04:41:36.398Z",
+            "sentiment": 0.8
+          },
+          {
+            "timestamp": "2025-07-30T04:41:43.656Z",
+            "sentiment": 0.7
+          },
+          {
+            "timestamp": "2025-07-30T04:41:51.979Z",
+            "sentiment": 0.5
+          },
+          {
+            "timestamp": "2025-07-30T04:42:00.244Z",
+            "sentiment": 0.4
+          },
+          {
+            "timestamp": "2025-07-30T04:42:07.542Z",
+            "sentiment": 0.6
+          },
+          {
+            "timestamp": "2025-07-30T04:42:14.592Z",
+            "sentiment": 0.9
+          },
+          {
+            "timestamp": "2025-07-30T04:42:22.283Z",
+            "sentiment": 0.8
+          }
+        ],
+        "tokenUsage": 1200
+      }
+    }
+  ]
+}

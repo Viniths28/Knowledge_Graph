@@ -1,0 +1,60 @@
+version: "3.8"
+
+services:
+  neo4j-dev-kg:
+    image: neo4j:${NEO4J_IMAGE_TAG}
+    container_name: neo4j-dev-kg
+    restart: unless-stopped
+
+    env_file:
+      - .env
+
+    ports:
+      - "${NEO4J_HTTP_HOST_PORT:-8474}:7474"   # Browser (HTTP)
+      - "${NEO4J_BOLT_HOST_PORT:-8687}:7687"   # Bolt
+
+    environment:
+      - NEO4J_AUTH=${NEO4J_AUTH}
+      - NEO4J_USER=${NEO4J_USER}
+      - NEO4J_PASSWORD=${NEO4J_PASSWORD}
+
+      # Plugins: APOC + GDS
+      - NEO4J_PLUGINS=${NEO4J_PLUGINS}
+
+      # APOC file import/export in dev
+      - NEO4J_apoc_export_file_enabled=true
+      - NEO4J_apoc_import_file_enabled=true
+      - NEO4J_apoc_import_file_use__neo4j__config=true
+
+      # Memory (dev defaults; adjust for GDS heavy runs)
+      - NEO4J_server_memory_heap_initial__size=${NEO4J_HEAP_INITIAL:-1G}
+      - NEO4J_server_memory_heap_max__size=${NEO4J_HEAP_MAX:-1G}
+      - NEO4J_server_memory_pagecache_size=${NEO4J_PAGECACHE:-1G}
+
+    volumes:
+      neo4j_dev_kg_data:
+        name: neo4j_dev_kg_data
+      neo4j_dev_kg_plugins:
+        name: neo4j_dev_kg_plugins
+      - ./import:/import
+      - ./logs:/logs
+      - ./backups:/backups
+
+    healthcheck:
+      test: ["CMD-SHELL", "/var/lib/neo4j/bin/cypher-shell -a bolt://localhost:7687 -u ${NEO4J_USER} -p ${NEO4J_PASSWORD} 'RETURN 1' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+    networks:
+      - kg-net
+
+volumes:
+  neo4j_dev_kg_data:
+    name: neo4j_dev_kg_data
+  neo4j_dev_kg_plugins:
+    name: neo4j_dev_kg_plugins
+
+networks:
+  kg-net:
+    driver: bridge

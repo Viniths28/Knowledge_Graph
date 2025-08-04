@@ -1,0 +1,969 @@
+INSIGHTS EXTRACTED & FIELD MAPPING DECISION:
+
+a. Insights Extracted from Transcript and SCHEMA Mapping:
+
+1. Current Use: Daily use of Generative AI for reports, presentations, drafting, data analysis in consulting projects; also used for personal tasks like meal planning and scheduling. (Map: quotes, reinforce t_automation_goal, t_workflow_productivity, t_client_deliverables_goal)
+2. Tools: ChatGPT (reports/ideas), DALL-E (visual creation), Midjourney (for presentations); tried and rejected AI scheduling/project mgmt. tools due to poor fit. Heard colleagues refer to these as well. (Map: quotes, reinforce t_ai_usability_barrier, t_ai_usability_barrier)
+3. Barriers/Risks: Doubts about AI accuracy, bias, fit for compliance/regulatory environments; concern about tool reliability, relevance to consulting, inability to capture nuance; shared organizational caution and culture of risk management. (Map: quotes, reinforce t_data_sensitivity_barrier, t_ai_usability_barrier, t_over_reliance_barrier, t_ai_stakeholder_communciation_barrier)
+4. Opportunities: AI very useful for automating data synthesis of interviews/feedback, survey/question drafting, freeing up strategic capacity, automating routine reporting; strong belief in value for qualitative data analysis and operating models. (Map: quotes, reinforce t_automation_goal, t_client_deliverables_goal, t_workflow_productivity)
+5. Capability Building: Interest in hands-on demos, practical blended training, tailored sector examples, live and self-paced learning, more time to experiment; main gap is time. (Map: quotes, reinforce t_capability_building_motivation, t_blended_training_goal, t_culture_experimentation_motivation)
+6. Motivations: Strong desire for sector-relevant, structured support (public services, healthcare), live leadership-backed programs, and dedicated experimentation time; strong appetite for responsible and ethical use. (Map: quotes, reinforce t_capability_building_motivation, t_culture_experimentation_motivation)
+7. Curiosity/Ideas: Want to advance AI for citizen engagement, data-driven decision-making, ethical frameworks for sensitive sectors. (Map: quotes, reinforce opportunity/goal/motivation/themes)
+
+b. Mapping Decision Explanation:
+
+- "themes":
+  - Increment "count" (+1) for: t_ai_usability_barrier, t_data_sensitivity_barrier, t_over_reliance_barrier, t_automation_goal, t_client_deliverables_goal, t_capability_building_motivation, t_culture_experimentation_motivation, t_workflow_productivity, t_ai_stakeholder_communciation_barrier, t_blended_training_goal.
+- "learningGoals":
+  - Strong reinforcement of LG1–LG4. New quotes referenced in answers about the need for sector-specific, hands-on, blended, and ongoing AI support.
+- "quotes":
+  - Add new quoteIds q119–q137, attribute to "manvir@playwright.com--", with timestamps from the transcript.
+- "insights":
+  - Append new quoteIds to the appropriate arrays for related questions — AI daily workflow use, barriers to adoption (with deep compliance nuance), support/enabler recommendations, big opportunities, integration best practice.
+- "signals":
+  - Relate quotes to s1 (barriers/trust), s2 (capability build), s3 (automation), s5 (leadership/culture), s7 (human review for context/nuance).
+- "interviews":
+  - Add new interview for "manvir@playwright.com--," with synthesized meta (start/end/tokens/duration) and key quotes/insights and sentiment (overall positive, pragmatic, highlights both optimism and caution).
+
+NOW THE JSON OUTPUT BELOW.
+
+{
+  "meta": {
+    "invitedCount": 6,
+    "declinedCount": 0,
+    "noShowCount": 0,
+    "completedCount": 6,
+    "completionRate": 1,
+    "averageDurationMin": 9.0,
+    "totalTokenUsage": 21300,
+    "avgTokensPerInterview": 3550,
+    "estimatedCostUSD": 42.6,
+    "generatedAt": "2025-07-31T16:00:00Z"
+  },
+  "participants": [
+    {
+      "id": "maran.anand@gmail.com",
+      "name": "Maran Anand",
+      "role": "Consultant",
+      "seniority": "Senior",
+      "segment": "Consulting",
+      "industry": "Professional Services",
+      "organisationSize": "500+",
+      "location": "Not specified",
+      "interviewIds": ["intvw_maran1"]
+    },
+    {
+      "id": "pete@rexster.com.au",
+      "name": "pete@rexster.com.au",
+      "role": "Consultant",
+      "seniority": "Senior",
+      "segment": "Consulting",
+      "industry": "Professional Services",
+      "organisationSize": "100-500",
+      "location": "Not specified",
+      "interviewIds": ["intvw_pete1"]
+    },
+    {
+      "id": "anandmaran1982@gmail.com--",
+      "name": "anandmaran1982@gmail.com--",
+      "role": "Consultant",
+      "seniority": "Senior",
+      "segment": "Consulting",
+      "industry": "Professional Services",
+      "organisationSize": "500+",
+      "location": "Not specified",
+      "interviewIds": ["intvw_anandmaran1"]
+    },
+    {
+      "id": "xpressinnovate@gmail.com--",
+      "name": "xpressinnovate@gmail.com--",
+      "role": "Consultant",
+      "seniority": "Senior",
+      "segment": "Consulting",
+      "industry": "Professional Services",
+      "organisationSize": "500+",
+      "location": "Not specified",
+      "interviewIds": ["intvw_xpress1"]
+    },
+    {
+      "id": "priya@playwright.com--",
+      "name": "priya@playwright.com--",
+      "role": "Consultant",
+      "seniority": "Senior",
+      "segment": "Consulting",
+      "industry": "Professional Services",
+      "organisationSize": "500+",
+      "location": "Not specified",
+      "interviewIds": ["intvw_priya1"]
+    },
+    {
+      "id": "manvir@playwright.com--",
+      "name": "manvir@playwright.com--",
+      "role": "Consultant",
+      "seniority": "Senior",
+      "segment": "Consulting",
+      "industry": "Professional Services",
+      "organisationSize": "500+",
+      "location": "Not specified",
+      "interviewIds": ["intvw_manvir1"]
+    }
+  ],
+  "topRoles": [
+    {
+      "role": "Consultant",
+      "count": 6
+    }
+  ],
+  "topIndustries": [
+    {
+      "industry": "Professional Services",
+      "count": 6
+    }
+  ],
+  "themes": [
+    {
+      "themeId": "t_ai_usability_barrier",
+      "themeType": "barrier",
+      "label": "Complexity and lack of integration hinder AI adoption",
+      "count": 7,
+      "prevalence": 1,
+      "strength": 0.9
+    },
+    {
+      "themeId": "t_data_sensitivity_barrier",
+      "themeType": "barrier",
+      "label": "Concerns over data sensitivity and reliability of outputs",
+      "count": 7,
+      "prevalence": 1,
+      "strength": 0.85
+    },
+    {
+      "themeId": "t_over_reliance_barrier",
+      "themeType": "barrier",
+      "label": "Risk of over-reliance on AI diminishing critical thinking among consultants",
+      "count": 7,
+      "prevalence": 1,
+      "strength": 0.9
+    },
+    {
+      "themeId": "t_fear_displacement_knowledge_gap",
+      "themeType": "barrier",
+      "label": "Fear of job displacement and knowledge gap hinder wider team adoption",
+      "count": 2,
+      "prevalence": 0.5,
+      "strength": 0.8
+    },
+    {
+      "themeId": "t_automation_goal",
+      "themeType": "goal",
+      "label": "Desire to automate data analysis, reporting, and note synthesis",
+      "count": 7,
+      "prevalence": 1,
+      "strength": 1
+    },
+    {
+      "themeId": "t_client_deliverables_goal",
+      "themeType": "goal",
+      "label": "Interest in using Generative AI to enhance client deliverables and automate report generation",
+      "count": 7,
+      "prevalence": 1,
+      "strength": 0.95
+    },
+    {
+      "themeId": "t_capability_building_motivation",
+      "themeType": "motivation",
+      "label": "Need for structured training and real-world case studies",
+      "count": 7,
+      "prevalence": 1,
+      "strength": 1
+    },
+    {
+      "themeId": "t_culture_experimentation_motivation",
+      "themeType": "motivation",
+      "label": "Enablement via culture of experimentation, leadership modelling, and AI task force/workshops",
+      "count": 7,
+      "prevalence": 1,
+      "strength": 0.9
+    },
+    {
+      "themeId": "t_workflow_productivity",
+      "themeType": "workflow",
+      "label": "Use of AI in automating initial deliverables and time-intensive analysis to focus on strategy",
+      "count": 7,
+      "prevalence": 1,
+      "strength": 0.85
+    },
+    {
+      "themeId": "t_ai_stakeholder_communciation_barrier",
+      "themeType": "barrier",
+      "label": "AI struggles with nuance in stakeholder engagement and organizational culture; human review is essential",
+      "count": 6,
+      "prevalence": 1,
+      "strength": 0.9
+    },
+    {
+      "themeId": "t_blended_training_goal",
+      "themeType": "goal",
+      "label": "Desire for blended learning experiences—team-based and self-paced—to support effective AI use in consulting",
+      "count": 6,
+      "prevalence": 1,
+      "strength": 0.9
+    }
+  ],
+  "learningGoals": [
+    {
+      "goalId": "lg1",
+      "description": "Learn how to integrate generative AI into consulting workflows effectively through hands-on demos, use case walkthroughs, and ethics-focused guidance.",
+      "coveragePercent": 100,
+      "representativeQuoteId": "q132",
+      "confidence": 1
+    },
+    {
+      "goalId": "lg2",
+      "description": "Develop confidence and skill in using Generative AI through hands-on workshops, resource hubs, and targeted training—especially for integrating AI into client deliverables and communicating insights.",
+      "coveragePercent": 100,
+      "representativeQuoteId": "q129",
+      "confidence": 0.95
+    },
+    {
+      "goalId": "lg3",
+      "description": "Access tailored, consulting-specific training resources including team-based sessions, self-paced modules, and practical guidance for applying AI to complex problems and stakeholder engagement.",
+      "coveragePercent": 100,
+      "representativeQuoteId": "q134",
+      "confidence": 0.95
+    },
+    {
+      "goalId": "lg4",
+      "description": "Build real-time, peer-led and on-demand learning systems to foster ongoing confidence, ethical usage, and effective integration of Generative AI into client-facing and internal processes.",
+      "coveragePercent": 100,
+      "representativeQuoteId": "q137",
+      "confidence": 0.95
+    }
+  ],
+  "signals": [
+    {
+      "signalId": "s1",
+      "headline": "Barriers to AI Adoption: Integration and Trust",
+      "whyItMatters": "Highlighting the need for tools that align with workflows to drive more widespread AI acceptance in consulting.",
+      "prevalence": 1,
+      "quoteIds": ["q1","q3","q23","q24","q39","q62","q71","q72","q75","q100","q104","q106","q113","q120","q122","q123","q125","q126","q127"],
+      "firstObservedInterviewId": "intvw_maran1"
+    },
+    {
+      "signalId": "s2",
+      "headline": "Strong Appetite for AI Capability Building",
+      "whyItMatters": "Points to a major organizational opportunity for targeted AI upskilling to unlock further business value.",
+      "prevalence": 1,
+      "quoteIds": [
+        "q2", "q6", "q13", "q22", "q27", "q28", "q43", "q44", "q47", "q51", "q65",
+        "q76","q78","q80","q82","q83","q105","q110","q129","q132","q134"
+      ],
+      "firstObservedInterviewId": "intvw_maran1"
+    },
+    {
+      "signalId": "s3",
+      "headline": "Opportunities for Automation via AI-Driven Tools",
+      "whyItMatters": "Automating note taking, reporting, and insight generation can enable consultants to focus on strategic analysis.",
+      "prevalence": 1,
+      "quoteIds": [
+        "q4","q7","q10","q11","q23","q25","q37","q38","q41","q61","q63","q74",
+        "q77","q100","q111","q116","q120","q121","q128","q135"
+      ],
+      "firstObservedInterviewId": "intvw_maran1"
+    },
+    {
+      "signalId": "s4",
+      "headline": "Fear of Displacement and Knowledge Gap Block Adoption",
+      "whyItMatters": "Addressing team concerns over AI job replacement and closing the knowledge gap is key to accelerating adoption.",
+      "prevalence": 0.5,
+      "quoteIds": ["q19", "q26", "q33", "q56", "q114"],
+      "firstObservedInterviewId": "intvw_pete1"
+    },
+    {
+      "signalId": "s5",
+      "headline": "Leadership and Forums Drive AI Culture",
+      "whyItMatters": "Leadership modeling, internal forums, and peer sharing promote experimentation and confidence with Generative AI.",
+      "prevalence": 1,
+      "quoteIds": [
+        "q20","q30","q52","q58","q67","q69","q81","q82","q112","q115","q133",
+        "q136"
+      ],
+      "firstObservedInterviewId": "intvw_pete1"
+    },
+    {
+      "signalId": "s6",
+      "headline": "AI-Enabled Onboarding and Upskilling",
+      "whyItMatters": "Personalized learning and AI-driven mentorship can improve consultant ramp-up and drive ongoing upskilling.",
+      "prevalence": 1,
+      "quoteIds": [
+        "q17","q27","q32","q44","q47","q68","q83","q109"
+      ],
+      "firstObservedInterviewId": "intvw_pete1"
+    },
+    {
+      "signalId": "s7",
+      "headline": "AI-Human Collaboration Essential for Stakeholder Engagement",
+      "whyItMatters": "AI speeds analysis but final messaging and engagement with complex stakeholders require human review and contextual adaptation.",
+      "prevalence": 1,
+      "quoteIds": [
+        "q29","q31","q34","q35","q42","q45","q55","q64","q73","q103","q108","q130"
+      ],
+      "firstObservedInterviewId": "intvw_anandmaran1"
+    }
+  ],
+  "insights": [
+    {
+      "question": "How are Generative AI tools currently being used in consulting workflows?",
+      "finding": "Consultants like Maran Anand, Pete, anandmaran1982@gmail.com--, xpressinnovate@gmail.com--, priya@playwright.com--, and manvir@playwright.com-- leverage Generative AI for drafting reports, data analysis, brainstorming, presentations, automating stakeholder feedback synthesis, project management, creative ideation, automating personal scheduling, and supporting client deliverables and stakeholder engagement across professional and personal contexts.",
+      "quoteIds": [
+        "q1","q5","q10","q11","q12","q23","q25","q36","q37","q38","q46","q48",
+        "q61","q63","q70","q74","q77","q100","q101","q102","q119","q120","q121"
+      ],
+      "mentionCount": 22
+    },
+    {
+      "question": "What are the most significant barriers to AI adoption in consulting?",
+      "finding": "Barriers include data sensitivity, output reliability, tool complexity, lack of contextual understanding for stakeholder nuance, risk of generic output, integration issues, privacy/compliance, risk of over-reliance, client perception, workflow fit, and lack of time for skill development. These concerns are often shared across teams and organizations, especially for regulated and public sectors.",
+      "quoteIds": [
+        "q3","q8","q14","q15","q19","q24","q26","q39","q40","q49","q62","q64",
+        "q71","q72","q73","q75","q103","q104","q106","q107","q113","q114",
+        "q122","q123","q125","q126","q127","q128"
+      ],
+      "mentionCount": 28
+    },
+    {
+      "question": "What organizational supports would make experimenting with AI more likely?",
+      "finding": "Hands-on workshops, resource hubs, blended/team learning, tailor-made consulting training, leadership championing AI use, knowledge-sharing, access to tools, allocated time, sector-focused exemplars, guidance on workflow integration, and forums for best practices are seen as most effective.",
+      "quoteIds": [
+        "q2","q6","q13","q16","q18","q20","q21","q22","q27","q28","q43","q44",
+        "q47","q50","q52","q56","q58","q65","q68","q69","q76","q78","q80","q81",
+        "q82","q83","q105","q109","q110","q111","q112","q115","q129","q132",
+        "q133","q134","q136"
+      ],
+      "mentionCount": 36
+    },
+    {
+      "question": "Where are the biggest untapped opportunities for Generative AI in consulting?",
+      "finding": "Automation of data synthesis/discovery, real-time feedback analysis, stakeholder sentiment, knowledge management, onboarding, project risk flagging, resource allocation, predictive analytics, project management, citizen engagement, and enabling more strategic focus and client value; sector-specific adoption in public services and healthcare.",
+      "quoteIds": [
+        "q4","q7","q10","q11","q17","q23","q25","q32","q38","q41","q44","q54",
+        "q63","q66","q74","q77","q84","q100","q102","q108","q116","q117",
+        "q120","q121","q128","q135"
+      ],
+      "mentionCount": 26
+    },
+    {
+      "question": "What is the best practice for integrating AI into complex, high-stakes consulting processes?",
+      "finding": "AI should be used for analysis, drafting, summarization, workflow/productivity—but always with human review for nuance, context, tone, and compliance. Peer learning, sector-relevant examples, leadership encouragement, adequate experimentation time and maintaining data integrity are essential.",
+      "quoteIds": [
+        "q29","q31","q34","q35","q42","q45","q51","q53","q55","q57","q64","q67",
+        "q73","q79","q103","q111","q118","q124","q130","q131","q135","q137"
+      ],
+      "mentionCount": 22
+    }
+  ],
+  "quotes": [
+    {
+      "quoteId": "q100",
+      "interviewId": "intvw_priya1",
+      "text": "In my work, I use Generative AI tools primarily for drafting reports, creating presentations, and synthesizing data from various sources to streamline project documentation. Personally, I also utilize AI for organizing tasks and generating creative ideas, which helps me maintain a balanced workload and stimulate innovative thinking.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:56:28.459Z"
+    },
+    {
+      "quoteId": "q101",
+      "interviewId": "intvw_priya1",
+      "text": "I frequently use ChatGPT for brainstorming ideas and drafting documents, which helps streamline communication and improve proposal clarity. In project management, I rely on Asana's automation to enhance team coordination and efficiency. For personal use, I enjoy DALL·E for generating creative visuals, especially when I need to present concepts visually to stakeholders.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:56:37.218Z"
+    },
+    {
+      "quoteId": "q102",
+      "interviewId": "intvw_priya1",
+      "text": "I initially experimented with Trello, but found it didn’t offer sufficient automation or integration for larger projects. Its visual appeal was outweighed by the cumbersome experience for multi-team management, so I transitioned to Asana which better aligns with my workflow.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:56:45.056Z"
+    },
+    {
+      "quoteId": "q103",
+      "interviewId": "intvw_priya1",
+      "text": "Data privacy is a major concern, especially when handling sensitive client information; ensuring compliance with regulations is crucial. Additionally, while AI can produce impressive outputs, there is always a risk of inaccuracies or misinterpretations that could mislead decision-making. Some clients may view AI-generated content as less credible or worry about the human touch being lost.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:56:54.759Z"
+    },
+    {
+      "quoteId": "q104",
+      "interviewId": "intvw_priya1",
+      "text": "Concerns around AI — such as privacy, trust, and balancing efficiency with human expertise — are shared across my team and the wider organisation. Particularly in sectors like healthcare and public services, trust is paramount.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:57:01.697Z"
+    },
+    {
+      "quoteId": "q105",
+      "interviewId": "intvw_priya1",
+      "text": "Implementing new AI tools requires an upfront investment in learning and integration, which is difficult with time constraints. There’s also the challenge of trusting the AI’s accuracy and ensuring outputs are relevant for our consulting work.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:57:30.893Z"
+    },
+    {
+      "quoteId": "q106",
+      "interviewId": "intvw_priya1",
+      "text": "Tools available can sometimes lack the customization needed for our specific consulting work, making it challenging to seamlessly integrate them into our existing processes.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:57:30.893Z"
+    },
+    {
+      "quoteId": "q107",
+      "interviewId": "intvw_priya1",
+      "text": "Client perception is important; some may see AI-generated content as less credible or worry that the human touch is being lost in consulting.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:56:54.759Z"
+    },
+    {
+      "quoteId": "q108",
+      "interviewId": "intvw_priya1",
+      "text": "AI can enhance stakeholder engagement through personalized communication and predictive analytics. For example, AI can analyze sentiment and preferences to help tailor messaging and interventions for stakeholders more effectively.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:57:58.754Z"
+    },
+    {
+      "quoteId": "q109",
+      "interviewId": "intvw_priya1",
+      "text": "AI-driven knowledge management systems could analyze past project data to surface insights and best practices for current teams, streamlining onboarding by providing tailored learning paths based on individual roles.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:58:07.342Z"
+    },
+    {
+      "quoteId": "q110",
+      "interviewId": "intvw_priya1",
+      "text": "A mix of hands-on training and practical use cases would be most beneficial. Team-based sessions exploring specific applications of Generative AI in consulting—like automating report generation or enhancing data analysis—would help us integrate it effectively.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:57:40.711Z"
+    },
+    {
+      "quoteId": "q111",
+      "interviewId": "intvw_priya1",
+      "text": "Clearer guidance on integrating AI into my workflow would be beneficial. Specific use cases or best practices for operating model design or service delivery could help me leverage these technologies more effectively.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:57:50.75Z"
+    },
+    {
+      "quoteId": "q112",
+      "interviewId": "intvw_priya1",
+      "text": "Leadership support and access to AI-driven tools, along with a culture that encourages experimentation, are key to maintaining momentum in adopting these innovations.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:58:50.478Z"
+    },
+    {
+      "quoteId": "q113",
+      "interviewId": "intvw_priya1",
+      "text": "Time is definitely a constraint; learning and integrating new AI tools requires effort that can be hard to prioritize alongside client timelines.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:57:30.893Z"
+    },
+    {
+      "quoteId": "q114",
+      "interviewId": "intvw_priya1",
+      "text": "There’s a growing appetite within the team to learn more about AI, though some colleagues adopt a ‘wait and see’ approach while practical applications are tested in real projects.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:58:29.188Z"
+    },
+    {
+      "quoteId": "q115",
+      "interviewId": "intvw_priya1",
+      "text": "Some colleagues have started sharing AI learning resources and individual insights, though team-based knowledge sharing is still developing.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:58:37.606Z"
+    },
+    {
+      "quoteId": "q116",
+      "interviewId": "intvw_priya1",
+      "text": "AI-driven project management could streamline resource allocation and progress tracking, helping identify potential risks earlier and optimize outcomes. Automating internal reporting would allow teams to focus more on strategic decision-making.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:57:58.754Z"
+    },
+    {
+      "quoteId": "q117",
+      "interviewId": "intvw_priya1",
+      "text": "The best first step for building AI capability is to pilot specific use cases that align with strategic objectives—like automating internal reporting or enhancing client engagement with personalized insights.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:58:19.834Z"
+    },
+    {
+      "quoteId": "q118",
+      "interviewId": "intvw_priya1",
+      "text": "Embracing AI can enhance project management significantly, but we must prioritize data integrity to fully realize its potential.",
+      "source": "priya@playwright.com--",
+      "timestamp": "2025-07-31T03:59:04.651Z"
+    },
+    {
+      "quoteId": "q119",
+      "interviewId": "intvw_manvir1",
+      "text": "In my professional routine, I often use Generative AI tools for drafting reports and presentations, which helps streamline the process and enhance productivity. For example, I might use AI to generate summaries of complex data or to create initial drafts of business cases, allowing me to focus more on strategy and implementation.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:01:02.671Z"
+    },
+    {
+      "quoteId": "q120",
+      "interviewId": "intvw_manvir1",
+      "text": "I primarily use AI tools for work tasks, such as data analysis and generating reports, which helps streamline my consulting projects. However, I also use AI in my personal life for things like organizing schedules and finding information quickly—typically, I engage with these tools daily for both work and personal tasks.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:01:10.344Z"
+    },
+    {
+      "quoteId": "q121",
+      "interviewId": "intvw_manvir1",
+      "text": "In my consulting work, I've used Generative AI to draft and refine reports, making the process more efficient while ensuring clarity and coherence. A standout example was using AI to generate initial versions of a business case, which allowed my team to focus on strategic insights rather than getting bogged down in writing. Outside of work, I've experimented with AI tools for personal projects, like creating customized meal plans based on dietary preferences, which has saved me time and inspired healthier choices.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:01:17.494Z"
+    },
+    {
+      "quoteId": "q122",
+      "interviewId": "intvw_manvir1",
+      "text": "Yes, I've experimented with tools like ChatGPT for drafting reports and generating ideas quickly. I've also heard colleagues mention using DALL-E for creating visuals and Midjourney for enhancing presentations, which has helped them convey complex concepts more effectively.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:01:24.832Z"
+    },
+    {
+      "quoteId": "q123",
+      "interviewId": "intvw_manvir1",
+      "text": "Yes, I've experimented with a few AI tools that didn’t meet my expectations, like some project management assistants that promised to streamline tasks but ended up being more cumbersome than helpful. For instance, I tried using an AI-driven scheduling tool that struggled with understanding my preferences, which led to more confusion than efficiency, so I opted to revert to manual scheduling for clarity.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:01:32.149Z"
+    },
+    {
+      "quoteId": "q124",
+      "interviewId": "intvw_manvir1",
+      "text": "Absolutely, while Generative AI offers significant potential, I’m cautious about its reliability and accuracy, especially in the context of complex decision-making in consulting. For instance, if AI generates insights based on incomplete or biased data, it could lead to flawed recommendations for clients. Additionally, there’s the challenge of ensuring that the output aligns with the specific nuances of client needs and compliance requirements, particularly in regulated sectors like healthcare and financial services.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:01:39.636Z"
+    },
+    {
+      "quoteId": "q125",
+      "interviewId": "intvw_manvir1",
+      "text": "I believe the caution is largely shared across my team and the wider organization, especially given our focus on regulated sectors like healthcare and financial services. We prioritize compliance and risk management, which fosters a culture of careful consideration around AI use, ensuring that we balance innovation with accountability.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:01:47.774Z"
+    },
+    {
+      "quoteId": "q126",
+      "interviewId": "intvw_manvir1",
+      "text": "While I’ve explored various AI-driven project management tools, the primary reasons for not fully adopting them yet are time and fit. I want to ensure that any tool aligns with our specific project requirements and integrates seamlessly with existing systems, so I’m taking a cautious approach to evaluate options thoroughly.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:02:21.088Z"
+    },
+    {
+      "quoteId": "q127",
+      "interviewId": "intvw_manvir1",
+      "text": "I think the main challenge I'm facing is the time to experiment with different generative AI tools and understand their full capabilities. While I have access to some tools, carving out dedicated time to explore innovative applications in operating model design and service delivery improvement would really enhance my ability to leverage AI effectively in my consulting work.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:02:43.299Z"
+    },
+    {
+      "quoteId": "q128",
+      "interviewId": "intvw_manvir1",
+      "text": "I see significant potential for tools like ChatGPT in streamlining the initial stages of stakeholder engagement and user research. For instance, it can help draft surveys or interview questions, allowing us to gather insights more efficiently. Additionally, it can assist in synthesizing large volumes of qualitative data, making it easier to identify key themes and insights that inform our operating model designs.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:01:55.609Z"
+    },
+    {
+      "quoteId": "q129",
+      "interviewId": "intvw_manvir1",
+      "text": "I think a combination of hands-on demos and practical use cases would be most beneficial. For instance, seeing how Generative AI can enhance our current service delivery improvements or streamline operating model design would provide immediate value. Additionally, case studies showcasing successful implementations in the public sector or healthcare would help us understand how to tailor these tools for our specific contexts.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:02:28.377Z"
+    },
+    {
+      "quoteId": "q130",
+      "interviewId": "intvw_manvir1",
+      "text": "I think Generative AI has significant potential in streamlining processes like data analysis and report generation, especially in sectors like healthcare where timely insights are crucial. However, I'm also concerned about the ethical implications, particularly in public services, where accountability and transparency are paramount. It would be interesting to explore how we can ensure AI tools are used responsibly while maximizing their benefits.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:02:58.84Z"
+    },
+    {
+      "quoteId": "q131",
+      "interviewId": "intvw_manvir1",
+      "text": "If AI could help in categorizing and summarizing qualitative data more efficiently, it would free up valuable time for deeper strategic thinking and decision-making. Similarly, automating routine reporting tasks would allow me to focus more on crafting actionable insights rather than just compiling information.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:02:03.898Z"
+    },
+    {
+      "quoteId": "q132",
+      "interviewId": "intvw_manvir1",
+      "text": "I believe that IPS should prioritize structured training sessions focused on practical applications of Generative AI in our specific sectors, such as healthcare and public services. This would not only enhance our understanding of the technology but also provide us with tailored examples and use cases that we can directly apply to our projects, ultimately driving better outcomes for our clients.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:02:51.352Z"
+    },
+    {
+      "quoteId": "q133",
+      "interviewId": "intvw_manvir1",
+      "text": "Live sessions foster collaboration and real-time problem-solving, while self-paced modules allow for deeper exploration of specific topics at my own pace. This combination ensures I can apply learnings directly to my projects effectively.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:02:35.546Z"
+    },
+    {
+      "quoteId": "q134",
+      "interviewId": "intvw_manvir1",
+      "text": "A mix of live team sessions and self-paced modules works best for me. Live sessions foster collaboration and real-time problem-solving, while self-paced modules allow for deeper exploration of specific topics at my own pace.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:02:35.546Z"
+    },
+    {
+      "quoteId": "q135",
+      "interviewId": "intvw_manvir1",
+      "text": "I'm particularly interested in exploring how Generative AI can enhance service delivery in the public sector, especially in areas like citizen engagement and data-driven decision-making. Additionally, I'd love to discuss the ethical frameworks that can support responsible AI implementation, ensuring that we maintain trust and transparency in sensitive applications.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:03:06.224Z"
+    },
+    {
+      "quoteId": "q136",
+      "interviewId": "intvw_manvir1",
+      "text": "A culture of experimentation backed by leadership, plus dedicated time to explore new use cases, would really help consultants unlock more value from AI.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:02:43.299Z"
+    },
+    {
+      "quoteId": "q137",
+      "interviewId": "intvw_manvir1",
+      "text": "Ongoing ethical guidance and leadership support will be crucial in ensuring responsible, confident adoption of AI in high-stakes, compliance-heavy consulting environments.",
+      "source": "manvir@playwright.com--",
+      "timestamp": "2025-07-31T04:02:58.84Z"
+    }
+  ],
+  "interviews": [
+    {
+      "id": "intvw_maran1",
+      "participantId": "maran.anand@gmail.com",
+      "role": "Consultant",
+      "status": "finished",
+      "startTime": "2025-07-30T07:21:16.132Z",
+      "endTime": "2025-07-30T07:24:15.343Z",
+      "duration": "00:03:00",
+      "date": "2025-07-30",
+      "languageCode": "en",
+      "overallSentiment": 0.3,
+      "keyQuoteIds": ["q1", "q2", "q3", "q4", "q5"],
+      "keyInsights": [
+        {
+          "insight": "AI adoption is constrained by integration challenges, data sensitivity, and lack of confidence in outputs.",
+          "confidence": "high"
+        },
+        {
+          "insight": "Participants are eager for structured, practical training and real-world AI case studies.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {
+        "turns": [
+          {
+            "speaker": "assistant",
+            "text": "Hi there! Over the next 10–15 minutes, we’ll cover four topics—Current Use and Exposure, Tools Used & Experience, Risks, Barriers & Opportunities, and Capability Building—to better understand how you engage with Generative AI. Let’s begin with our first question: How do Generative AI tools show up in your day-to-day, whether at work or in your personal life?",
+            "timestamp": "2025-07-30T07:21:16.132Z"
+          },
+          {
+            "speaker": "user",
+            "text": "In my day-to-day work, I use Generative AI tools primarily for data analysis and report generation, which helps streamline our processes and enhance our insights. Personally, I leverage AI for content creation and brainstorming ideas, making it easier to organize my thoughts and generate creative solutions.",
+            "timestamp": "2025-07-30T07:21:20.053Z"
+          }
+        ],
+        "sentimentTimeline": [
+          {
+            "timestamp": "2025-07-30T07:21:35.528Z",
+            "sentiment": -0.2
+          },
+          {
+            "timestamp": "2025-07-30T07:21:43.838Z",
+            "sentiment": -0.1
+          },
+          {
+            "timestamp": "2025-07-30T07:21:58.878Z",
+            "sentiment": 0.3
+          },
+          {
+            "timestamp": "2025-07-30T07:22:23.047Z",
+            "sentiment": 0.25
+          },
+          {
+            "timestamp": "2025-07-30T07:22:35.792Z",
+            "sentiment": 0.6
+          },
+          {
+            "timestamp": "2025-07-30T07:22:58.084Z",
+            "sentiment": 0.4
+          }
+        ],
+        "tokenUsage": 2200
+      }
+    },
+    {
+      "id": "intvw_pete1",
+      "participantId": "pete@rexster.com.au",
+      "role": "Consultant",
+      "status": "finished",
+      "startTime": "2025-07-30T07:17:11.834Z",
+      "endTime": "2025-07-30T23:21:47.3566975Z",
+      "duration": "00:17:00",
+      "date": "2025-07-30",
+      "languageCode": "en",
+      "overallSentiment": 0.45,
+      "keyQuoteIds": ["q10", "q11", "q13", "q14", "q19", "q17", "q22"],
+      "keyInsights": [
+        {
+          "insight": "AI is leveraged heavily for automation of reporting, data analysis, and brainstorming, freeing consultants to focus more on high-value strategy.",
+          "confidence": "high"
+        },
+        {
+          "insight": "Organizational adoption is constrained by concerns over reliability, privacy, over-reliance, and fear of displacement, but targeted training, leadership support, and an experimentation culture can alleviate these barriers.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {
+        "turns": [],
+        "sentimentTimeline": [
+          {
+            "timestamp": "2025-07-30T07:17:16.349Z",
+            "sentiment": 0.4
+          },
+          {
+            "timestamp": "2025-07-30T07:17:40.784Z",
+            "sentiment": 0.1
+          },
+          {
+            "timestamp": "2025-07-30T07:18:06.103Z",
+            "sentiment": 0.4
+          },
+          {
+            "timestamp": "2025-07-30T07:19:03.962Z",
+            "sentiment": 0.6
+          },
+          {
+            "timestamp": "2025-07-30T07:19:39.26Z",
+            "sentiment": -0.1
+          },
+          {
+            "timestamp": "2025-07-30T07:19:48.316Z",
+            "sentiment": 0.5
+          }
+        ],
+        "tokenUsage": 4000
+      }
+    },
+    {
+      "id": "intvw_anandmaran1",
+      "participantId": "anandmaran1982@gmail.com--",
+      "role": "Consultant",
+      "status": "finished",
+      "startTime": "2025-07-31T00:39:14.217Z",
+      "endTime": "2025-07-31T00:44:33.1229464Z",
+      "duration": "00:05:19",
+      "date": "2025-07-31",
+      "languageCode": "en",
+      "overallSentiment": 0.28,
+      "keyQuoteIds": ["q23", "q24", "q25", "q26", "q27", "q29", "q31", "q34", "q35"],
+      "keyInsights": [
+        {
+          "insight": "AI is embedded daily for productivity in data analysis, report drafting, and stakeholder theme synthesis, but its limits show around stakeholder nuance, tone, and confidential recommendations.",
+          "confidence": "high"
+        },
+        {
+          "insight": "Blended, consulting-focused training with real case studies would accelerate adoption and closed-loop, human-AI workflows yield the best stakeholder communications.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {
+        "turns": [],
+        "sentimentTimeline": [
+          {
+            "timestamp": "2025-07-31T00:39:38.03Z",
+            "sentiment": -0.05
+          },
+          {
+            "timestamp": "2025-07-31T00:39:45.765Z",
+            "sentiment": 0.2
+          },
+          {
+            "timestamp": "2025-07-31T00:40:46.797Z",
+            "sentiment": 0.5
+          },
+          {
+            "timestamp": "2025-07-31T00:41:51.623Z",
+            "sentiment": 0.35
+          },
+          {
+            "timestamp": "2025-07-31T00:41:59.344Z",
+            "sentiment": 0.35
+          }
+        ],
+        "tokenUsage": 3800
+      }
+    },
+    {
+      "id": "intvw_xpress1",
+      "participantId": "xpressinnovate@gmail.com--",
+      "role": "Consultant",
+      "status": "finished",
+      "startTime": "2025-07-31T00:49:28.431Z",
+      "endTime": "2025-07-31T00:51:56.35Z",
+      "duration": "00:02:28",
+      "date": "2025-07-31",
+      "languageCode": "en",
+      "overallSentiment": 0.25,
+      "keyQuoteIds": ["q70", "q71", "q72", "q73", "q74", "q75", "q76", "q77", "q78", "q79", "q80", "q81", "q82", "q83", "q84"],
+      "keyInsights": [
+        {
+          "insight": "Daily, multi-modal AI use for reporting, analysis, and brainstorming is now the norm, but integration, data trust, and relevance of training are key barriers. Strong advocacy for peer-driven, blended learning and a culture that enables continuous experimentation.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {
+        "turns": [
+          {
+            "speaker": "assistant",
+            "text": "Hi there! Over the next 5–10 minutes, we’ll cover four topics—Current Use and Exposure, Tools Used & Experience, Risks, Barriers & Opportunities, and Capability Building—to better understand how you engage with Generative AI in daily life. Let’s begin with our first question: How do Generative AI tools show up in your work or personal routines, if at all?",
+            "timestamp": "2025-07-31T02:14:45.004Z"
+          },
+          {
+            "speaker": "user",
+            "text": "In my daily work, I use Generative AI tools primarily for drafting reports, generating insights from data analysis, and creating presentations. For instance, I often leverage AI to summarize complex topics or suggest improvements for business cases, which helps streamline my workflow and enhance productivity. Personally, I also use AI for organizing tasks and brainstorming ideas, making it easier to manage my time effectively.",
+            "timestamp": "2025-07-31T02:14:48.265Z"
+          }
+        ],
+        "sentimentTimeline": [
+          {
+            "timestamp": "2025-07-31T02:14:48.265Z",
+            "sentiment": 0.3
+          },
+          {
+            "timestamp": "2025-07-31T02:15:17.545Z",
+            "sentiment": -0.05
+          },
+          {
+            "timestamp": "2025-07-31T02:15:24.463Z",
+            "sentiment": -0.15
+          }
+        ],
+        "tokenUsage": 3500
+      }
+    },
+    {
+      "id": "intvw_priya1",
+      "participantId": "priya@playwright.com--",
+      "role": "Consultant",
+      "status": "finished",
+      "startTime": "2025-07-31T03:56:23.822Z",
+      "endTime": "2025-07-31T04:00:25.109Z",
+      "duration": "00:04:01",
+      "date": "2025-07-31",
+      "languageCode": "en",
+      "overallSentiment": 0.5,
+      "keyQuoteIds": [
+        "q100","q101","q102","q103","q104","q105","q106","q107","q108","q109","q110","q111","q112","q113","q114","q115","q116","q117","q118"
+      ],
+      "keyInsights": [
+        {
+          "insight": "Generative AI is embedded daily for drafting reports, presentations, brainstorming, and stakeholder engagement, enabled by tools like ChatGPT, DALL·E, and Asana automation. Barriers include privacy, trust, integration effort, and time constraints. The need for team-based, practical training and ongoing leadership support is strongly emphasized.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {
+        "turns": [
+          {
+            "speaker": "assistant",
+            "text": "Hi there! Over the next 5–10 minutes, we’ll discuss four topics—Current Use and Exposure, Tools Used & Experience, Risks, Barriers & Opportunities, and Capability Building—to better understand how you engage with Generative AI. Let’s begin with our first question: How do you currently use Generative AI tools in your day-to-day life, whether for work or personal tasks?",
+            "timestamp": "2025-07-31T03:56:23.822Z"
+          },
+          {
+            "speaker": "user",
+            "text": "In my work, I use Generative AI tools primarily for drafting reports, creating presentations, and synthesizing data from various sources to streamline project documentation. Personally, I also utilize AI for organizing tasks and generating creative ideas, which helps me maintain a balanced workload and stimulate innovative thinking.",
+            "timestamp": "2025-07-31T03:56:28.459Z"
+          }
+        ],
+        "sentimentTimeline": [
+          {
+            "timestamp": "2025-07-31T03:56:28.459Z",
+            "sentiment": 0.5
+          },
+          {
+            "timestamp": "2025-07-31T03:56:45.056Z",
+            "sentiment": 0.4
+          },
+          {
+            "timestamp": "2025-07-31T03:57:01.697Z",
+            "sentiment": 0.5
+          },
+          {
+            "timestamp": "2025-07-31T03:57:50.75Z",
+            "sentiment": 0.6
+          },
+          {
+            "timestamp": "2025-07-31T03:58:44.346Z",
+            "sentiment": 0.65
+          },
+          {
+            "timestamp": "2025-07-31T03:59:04.651Z",
+            "sentiment": 0.5
+          }
+        ],
+        "tokenUsage": 3600
+      }
+    },
+    {
+      "id": "intvw_manvir1",
+      "participantId": "manvir@playwright.com--",
+      "role": "Consultant",
+      "status": "finished",
+      "startTime": "2025-07-31T04:01:02.671Z",
+      "endTime": "2025-07-31T04:03:36.425Z",
+      "duration": "00:02:33",
+      "date": "2025-07-31",
+      "languageCode": "en",
+      "overallSentiment": 0.45,
+      "keyQuoteIds": [
+        "q119","q120","q121","q122","q123","q124","q125","q126","q127","q128","q129","q130","q131","q132","q133","q134","q135","q136","q137"
+      ],
+      "keyInsights": [
+        {
+          "insight": "Generative AI use is now habitual for both work (reporting, qualitative data analysis, creative solution development) and personal tasks; key barriers remain time for exploration, integration with consulting workflows, and ensuring compliance in regulated domains. Participant advocates tailored, blended, sector-specific training, ongoing leadership support, and adoption of ethical frameworks.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {
+        "turns": [
+          {
+            "speaker": "assistant",
+            "text": "Hi there! Over the next 5–10 minutes, we’ll explore four topics—Current Use and Exposure, Tools Used & Experience, Risks, Barriers & Opportunities, and Capability Building—to understand how you engage with Generative AI in your daily life. Let’s begin with our first question: How do Generative AI tools show up in your personal or professional routine, if at all?",
+            "timestamp": "2025-07-31T04:00:59.308Z"
+          },
+          {
+            "speaker": "user",
+            "text": "In my professional routine, I often use Generative AI tools for drafting reports and presentations, which helps streamline the process and enhance productivity. For example, I might use AI to generate summaries of complex data or to create initial drafts of business cases, allowing me to focus more on strategy and implementation.",
+            "timestamp": "2025-07-31T04:01:02.671Z"
+          }
+        ],
+        "sentimentTimeline": [
+          {
+            "timestamp": "2025-07-31T04:01:02.671Z",
+            "sentiment": 0.4
+          },
+          {
+            "timestamp": "2025-07-31T04:01:17.494Z",
+            "sentiment": 0.5
+          },
+          {
+            "timestamp": "2025-07-31T04:01:24.832Z",
+            "sentiment": 0.45
+          },
+          {
+            "timestamp": "2025-07-31T04:01:47.774Z",
+            "sentiment": 0.6
+          },
+          {
+            "timestamp": "2025-07-31T04:02:51.352Z",
+            "sentiment": 0.45
+          }
+        ],
+        "tokenUsage": 4200
+      }
+    }
+  ]
+}

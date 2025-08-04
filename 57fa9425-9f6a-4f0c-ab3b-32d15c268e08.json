@@ -1,0 +1,404 @@
+Insights mapped from the transcript to the schema:
+
+a. Extracted Insights and Mapping
+- Peter is a heavy user of generative AI in his role at IPS, leveraging multiple tools (ChatGPT, Claude, Bolt, Copilot) for a range of professional tasks (research, document/image production, product support, prototyping, IT setup). Maps to Participant (role, industry, seniority), Interview (transcript and insights), Theme (workflow, goal).
+- He creates and shares custom GPTs, notably a "Community Recovery Committee Navigator" tool, for efficient info management and team enablement. Maps to Themes, LearningGoal, Signal, Quote, Insight.
+- Example use case: enabled efficient info sharing for a community, avoiding unnecessary meetings and time spent searching documents. Maps to Insight, Quote.
+- Confidence is high, but he follows a personal "always be validating" (ABV) principle, especially for critical tasks (calculations, citations). Prefers manual validation in some scenarios. Maps to Theme (barrier), Insight, Quote.
+- He has directly caught AI errors (e.g., Gemini's incorrect superannuation calculation), demonstrating active management of AI limitations. Maps to Signal, Quote, Insight.
+- Expressed desire for enablement/resources in developing more sophisticated AI tools (AI guidelines, opportunity assessment, proposal assistant, virtual consultant, presentation designer), with a virtual consultant for production/logistics as biggest impact. Maps to Theme (goal, motivation), LearningGoal, Insight, Quote.
+- Wants practical examples and enablement specific to consulting and client-facing workflows. Maps to LearningGoal, Theme.
+- Sentiment throughout is engaged and generally positive, occasional caution; sentiment values kept neutral/positive for schema compatibility.
+
+b. Mapping Explanation (per field)
+- meta: Set counts = 1, token usage and durations estimated from transcript length, as it’s first/only participant/interview.
+- participants: Created using Peter's email/name, assigned generic info where missing (seniority, role, etc.), interviewId linked.
+- topRoles/topIndustries: Inferred as "Consultant" and "Consulting/Professional Services" given use cases described.
+- themes: 
+   - workflows: heavy integration of generative AI 
+   - goals: efficiency, building custom AI solutions
+   - barriers: need for validation/trust, manual checks on AI output
+   - motivation: desire to build impact tools (virtual consultant)
+- learningGoals: Understand how experts maximize AI, what support enables tool-building, representative quote selected.
+- signals: 
+   - "Power-user archetype"—AI deeply integrated, proactive development/sharing
+   - "Active Validator"—explicitly describes trust boundaries and validation
+- insights: 
+   - Breadth of AI use
+   - Creation/sharing of custom GPTs
+   - Value of ABV approach & validation
+   - Enablement gaps for advanced consulting solutions
+- quotes: Attributed to Peter, pulled from text on validation, tools, and intended future use.
+- interviews: Interview block includes sentiment/tokens/timestamps, extracts transcript, key quoteIds.
+
+c. Provide revised JSON object
+
+{
+  "meta": {
+    "invitedCount": 1,
+    "declinedCount": 0,
+    "noShowCount": 0,
+    "completedCount": 1,
+    "completionRate": 1,
+    "averageDurationMin": 17,
+    "totalTokenUsage": 2400,
+    "avgTokensPerInterview": 2400,
+    "estimatedCostUSD": 5,
+    "generatedAt": "2025-08-01T05:00:00Z"
+  },
+  "participants": [
+    {
+      "id": "peter@rexster.com.au",
+      "name": "Peter Rexster",
+      "role": "Consultant",
+      "seniority": "Senior",
+      "segment": "Professional Services",
+      "industry": "Consulting",
+      "organisationSize": "50-200",
+      "location": "Australia",
+      "interviewIds": ["intvw_001"]
+    }
+  ],
+  "topRoles": [
+    {
+      "role": "Consultant",
+      "count": 1
+    }
+  ],
+  "topIndustries": [
+    {
+      "industry": "Consulting",
+      "count": 1
+    }
+  ],
+  "themes": [
+    {
+      "themeId": "t1",
+      "themeType": "workflow",
+      "label": "Heavy integration of generative AI tools across daily workflows",
+      "count": 1,
+      "prevalence": 1,
+      "strength": 1
+    },
+    {
+      "themeId": "t2",
+      "themeType": "goal",
+      "label": "Desire to build custom AI agents/tools to streamline consulting and client enablement",
+      "count": 1,
+      "prevalence": 1,
+      "strength": 1
+    },
+    {
+      "themeId": "t3",
+      "themeType": "barrier",
+      "label": "Need for independent validation of AI outputs for accuracy and reliability",
+      "count": 1,
+      "prevalence": 1,
+      "strength": 0.7
+    },
+    {
+      "themeId": "t4",
+      "themeType": "motivation",
+      "label": "Motivated to increase operational efficiency with AI-powered logistics and production tools",
+      "count": 1,
+      "prevalence": 1,
+      "strength": 0.9
+    }
+  ],
+  "learningGoals": [
+    {
+      "goalId": "lg1",
+      "description": "Discover practical enablement and examples for building AI tools tailored to consulting workflows",
+      "coveragePercent": 100,
+      "representativeQuoteId": "q3",
+      "confidence": 0.9
+    }
+  ],
+  "signals": [
+    {
+      "signalId": "s1",
+      "headline": "Power-user archetype: Fusion of multiple generative AI platforms for production and optimization",
+      "whyItMatters": "Understanding needs of advanced AI users guides enablement and support for higher-value offerings.",
+      "prevalence": 1,
+      "quoteIds": ["q1", "q6"],
+      "firstObservedInterviewId": "intvw_001"
+    },
+    {
+      "signalId": "s2",
+      "headline": "Always Be Validating: Trust in AI built on manual verification of critical outputs",
+      "whyItMatters": "Trust boundaries for AI tools can drive product design and educational priorities.",
+      "prevalence": 1,
+      "quoteIds": ["q4", "q5"],
+      "firstObservedInterviewId": "intvw_001"
+    }
+  ],
+  "insights": [
+    {
+      "question": "How is generative AI currently used in the participant's workflow?",
+      "finding": "Peter Rexster uses a diverse set of AI tools (ChatGPT, Claude, Copilot, Bolt) daily for research, document review, production, and prototyping, significantly increasing work efficiency.",
+      "quoteIds": ["q1"],
+      "mentionCount": 1
+    },
+    {
+      "question": "What value does creating and sharing custom GPTs bring?",
+      "finding": "Custom GPTs allowed Peter to efficiently answer frequent questions from a community without additional meetings, supporting both his and others' productivity.",
+      "quoteIds": ["q2"],
+      "mentionCount": 1
+    },
+    {
+      "question": "Where are confidence boundaries or trust issues with AI tools?",
+      "finding": "Peter follows the principle 'Always Be Validating' for AI use, especially in calculations and sourcing citations, relying on manual checks and external validation.",
+      "quoteIds": ["q4", "q5"],
+      "mentionCount": 1
+    },
+    {
+      "question": "What enablement or support does Peter see as most impactful for advanced AI use in consulting?",
+      "finding": "Practical resources for developing AI-powered client tools (proposal assistants, virtual consultants, opportunity assessments) are seen as having the highest potential impact, with document production and logistics as initial focus areas.",
+      "quoteIds": ["q3", "q6"],
+      "mentionCount": 1
+    }
+  ],
+  "quotes": [
+    {
+      "quoteId": "q1",
+      "interviewId": "intvw_001",
+      "text": "I use a range of AI tools for just about everything in my work. I use ChatGPT for research, document review, organising my thoughts, critiquing my approaches, document production, image production, IT and product support. I use Claude a bit—I really like the artifacts...I also recently used CoPilot to guide me through some IT set up stuff—it was quite good.",
+      "source": "Peter Rexster",
+      "timestamp": "2025-08-01T04:04:51.939Z"
+    },
+    {
+      "quoteId": "q2",
+      "interviewId": "intvw_001",
+      "text": "I create GPTs where there is a lot of content or information that I need to share or refer to and I can also share them with others who might be asking me questions. This way they can use the GPT to get the info they need and I can use it when I need to refer to it.",
+      "source": "Peter Rexster",
+      "timestamp": "2025-08-01T04:06:23.003Z"
+    },
+    {
+      "quoteId": "q3",
+      "interviewId": "intvw_001",
+      "text": "I would like to know more about practical uses in consulting as well as developing online tools and agents that help me or my clients with the work we do.",
+      "source": "Peter Rexster",
+      "timestamp": "2025-08-01T04:16:22.857Z"
+    },
+    {
+      "quoteId": "q4",
+      "interviewId": "intvw_001",
+      "text": "I am very confident but I also take time to regularly explore and understand. I feel like I learn many new things each week and I like to test them out. Every time you learn something new it is like a step on the journey and it opens up new possibilities to learn.",
+      "source": "Peter Rexster",
+      "timestamp": "2025-08-01T04:10:19.431Z"
+    },
+    {
+      "quoteId": "q5",
+      "interviewId": "intvw_001",
+      "text": "I have a saying ABV—always be validating. Where I know the topic I am comfortable, where I am relying on the AI for calculations or specific research I like citations I can check.",
+      "source": "Peter Rexster",
+      "timestamp": "2025-08-01T04:11:53.594Z"
+    },
+    {
+      "quoteId": "q6",
+      "interviewId": "intvw_001",
+      "text": "AI Guidelines for clients, AI opportunity Assessment, a Proposal Assistant, a Virtual Consultant, a Presentation Designer—there are literally dozens [of ideas].",
+      "source": "Peter Rexster",
+      "timestamp": "2025-08-01T04:17:22.174Z"
+    }
+  ],
+  "interviews": [
+    {
+      "id": "intvw_001",
+      "participantId": "peter@rexster.com.au",
+      "role": "Consultant",
+      "status": "finished",
+      "startTime": "2025-08-01T04:01:52.015Z",
+      "endTime": "2025-08-01T04:18:59.298Z",
+      "duration": "00:17:00",
+      "date": "2025-08-01",
+      "languageCode": "en",
+      "overallSentiment": 0.4,
+      "keyQuoteIds": ["q1", "q2", "q3", "q5", "q6"],
+      "keyInsights": [
+        {
+          "insight": "Peter is a senior consultant who leverages multiple AI tools and custom GPTs to streamline consulting workflows and enable client self-service, while emphasizing diligent validation for critical outputs.",
+          "confidence": "high"
+        }
+      ],
+      "transcript": {
+        "turns": [
+          {
+            "speaker": "assistant",
+            "text": "Hi there! Over the next 5–10 minutes, we’ll explore four topics—Use & Awareness, Ways of Use & Value, Confidence & Barriers, and Enablement & Needs—to better understand how generative AI is fitting into your work and where support might be most helpful. Let’s begin with our first question: To start off, could you tell me a bit about whether and how you're currently using generative AI tools in your work at IPS?",
+            "timestamp": "2025-08-01T04:01:52.015Z"
+          },
+          {
+            "speaker": "user",
+            "text": "i use a range of AI tools for just about everything in my work.  I use ChatGPT for research, document review, organising my thoughts, critiquing my approaches, document production, image production, IT and product support.  i use claude a bit I really like the artifacts.  I have used it for things like assessing checklists and then turning them into interactive artifacts as well as some great interactive presentations. I have been using bolt for some rapid prototyping.  I also recently used CoPilot to guid me through some IT set up stuff it was quite good",
+            "timestamp": "2025-08-01T04:04:51.939Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a really comprehensive mix of tools you’re using — sounds like they’re playing quite a big role across your day-to-day work. I’m curious, could you share a recent example where generative AI actually helped you get to a better outcome — or maybe saved you time or effort in a surprising way?",
+            "timestamp": "2025-08-01T04:05:00.3239097Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I create gpts where there is a lot of content or information that i need to share or refer to and i can also share them with others who might be asking me questions. This way they can use the gpt to get the info they need and i can use it when i need to refer to it",
+            "timestamp": "2025-08-01T04:06:23.003Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s such a clever way to manage and share complex info — sounds like it’s saving you heaps of back-and-forth. Out of curiosity, has there been a particular moment where using one of your custom GPTs really saved you time or helped someone else get what they needed faster than usual?",
+            "timestamp": "2025-08-01T04:06:24.573784Z"
+          },
+          {
+            "speaker": "user",
+            "text": "yes the GPT referred to above it was a community recovery committee navigator",
+            "timestamp": "2025-08-01T04:07:02.463Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Ah, gotcha — the Community Recovery Committee Navigator sounds like a really handy one. Could you walk me through a moment where it made a real difference? Like, who was using it, what kind of info they were trying to get, and what the outcome was? Just curious how it played out in practice.",
+            "timestamp": "2025-08-01T04:07:04.2534502Z"
+          },
+          {
+            "speaker": "user",
+            "text": "i was working with a community in the grampians who were regularly seeking help and asking question.  It meant I could easily get to the specifics without lots of time spent looking through and reading large documents.  They could also save time themselves by not need to have a meeting time with me to find things out",
+            "timestamp": "2025-08-01T04:08:36.045Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That sounds like a really practical use — and honestly, such a relief for both you and the community, not having to trawl through heaps of info or schedule more meetings than needed. Just curious — what kind of questions were they typically asking the GPT? Was it more around funding, timelines, responsibilities… or broader stuff like where to start after an emergency?",
+            "timestamp": "2025-08-01T04:08:38.3378928Z"
+          },
+          {
+            "speaker": "user",
+            "text": "everything you can think of too much detail can we move on",
+            "timestamp": "2025-08-01T04:09:04.787Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Totally fair — sounds like it covered a bit of everything, which makes sense in those situations. Alright, let’s shift gears a little then. How confident do you feel using these AI tools in your role? Do you usually feel pretty comfortable, or are there moments where you're still a bit unsure?",
+            "timestamp": "2025-08-01T04:09:06.4482835Z"
+          },
+          {
+            "speaker": "user",
+            "text": "I am very confident but i also take time to regularly explore and understand.  I feel like i learn many new things each week and i like to test them out.  Every time you learn something new it is like a step on the journey and it opens up new posiiblities to learn",
+            "timestamp": "2025-08-01T04:10:19.431Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Love that mindset — sounds like you’re really leaning into the learning curve and enjoying the process, which is great. Just thinking about the flip side for a moment — are there any situations where you’ve felt a bit unsure about whether it’s appropriate or safe to use AI in your work?",
+            "timestamp": "2025-08-01T04:10:21.5289942Z"
+          },
+          {
+            "speaker": "user",
+            "text": "Yeah i had claude do some price checking for me.  I havent used it for my work yet as I want to validate it.  i have a saying ABV, always be validating. Where i know the topic i am comfortable where i am relying on the AI for calcultions or specific research i like citiations i  can check",
+            "timestamp": "2025-08-01T04:11:53.594Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That \"ABV – always be validating\" approach is a solid one, especially when you're relying on AI for more technical or research-heavy stuff. Sounds like you're pretty thoughtful about where the line is. Just on that — are there particular types of tasks or topics where you're more hesitant to trust AI without validation? Like, anything you’d definitely still prefer to do manually or double-check every time?",
+            "timestamp": "2025-08-01T04:11:55.9229491Z"
+          },
+          {
+            "speaker": "user",
+            "text": "numerical calculations although it is much better these days, specific citiations or references if i am going to rely on them",
+            "timestamp": "2025-08-01T04:13:01.874Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Yeah, totally fair — things like numbers and citations can really trip you up if they’re even slightly off. When you’ve caught those kinds of issues in the past — like dodgy calculations or weak references — how do you usually go about checking or validating them? Do you have a go-to process for gut-checking AI outputs?",
+            "timestamp": "2025-08-01T04:13:08.7562647Z"
+          },
+          {
+            "speaker": "user",
+            "text": "i use a calculator or go to the reference in a citation or google and find the source to validate against",
+            "timestamp": "2025-08-01T04:13:51.931Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Yep, that makes a lot of sense — sounds like you've built a pretty reliable habit around double-checking. Just out of curiosity, has there ever been a time when that validation step actually saved you from a mistake — like something the AI got wrong that could’ve caused issues if you hadn’t caught it?",
+            "timestamp": "2025-08-01T04:13:53.6228326Z"
+          },
+          {
+            "speaker": "user",
+            "text": "there was one where google gemini totally stuffed up a superannuation calculation.  But I could see in the response that it had got it worng early so i ignored it and moved to chat gpt. but in general i have a lot of experience in numbers and prompting so i can generally manage it.",
+            "timestamp": "2025-08-01T04:15:32.375Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Sounds like your instincts and experience really kicked in there — and good on you for spotting it early and switching tools. Just thinking ahead a bit — if IPS were to offer some practical support around AI, like training or resources — what kind of help would actually feel useful to you in your day-to-day work?",
+            "timestamp": "2025-08-01T04:15:34.1817634Z"
+          },
+          {
+            "speaker": "user",
+            "text": "i would like to know more about practical uses in consulting as well as developing online tools and agents that help me or my clients with the work we do",
+            "timestamp": "2025-08-01T04:16:22.857Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a great callout — sounds like you’re really keen to move beyond just using AI for surface-level tasks and into building smarter tools that actually support your workflows and your clients’ needs. Just thinking about that a bit more — is there a particular type of tool or agent you’ve been wanting to build, or a problem you keep bumping into where you think, “ah, an AI solution could really help here”?",
+            "timestamp": "2025-08-01T04:16:25.9097223Z"
+          },
+          {
+            "speaker": "user",
+            "text": "AI Guidlines for clients, AI opportunity Assessment, A proposal Assistant a virtual consultant, a presentation designer the are literally dozens",
+            "timestamp": "2025-08-01T04:17:22.174Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "That’s a brilliant list — you've clearly been thinking deeply about where AI could really add value. Out of all those ideas — the proposal assistant, virtual consultant, presentation designer — is there one you reckon would have the biggest immediate impact if you could build it tomorrow? What makes that one stand out for you?",
+            "timestamp": "2025-08-01T04:17:24.2995128Z"
+          },
+          {
+            "speaker": "user",
+            "text": "A virtual consultant that i can get doing a lot of the production and logistics work",
+            "timestamp": "2025-08-01T04:18:07.048Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Love that — a virtual consultant handling the production and logistics side could free up so much headspace, hey? Out of curiosity, what kind of tasks would you hand off first if you had that up and running — like, the things that eat up time but don’t really need your brainpower?",
+            "timestamp": "2025-08-01T04:18:09.286863Z"
+          },
+          {
+            "speaker": "user",
+            "text": "document production. Hey we are now 17 minutes in I have to wrap up",
+            "timestamp": "2025-08-01T04:18:42.847Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Totally understand — really appreciate you taking the time to share your thoughts. You've clearly put a lot of thought into how you're using AI already, and it’s exciting to hear where you see it going next. Before we wrap, is there anything else you wanted to add — maybe something we didn’t get to that you think’s worth mentioning?",
+            "timestamp": "2025-08-01T04:18:45.6220519Z"
+          },
+          {
+            "speaker": "user",
+            "text": "no all good",
+            "timestamp": "2025-08-01T04:18:59.298Z"
+          },
+          {
+            "speaker": "assistant",
+            "text": "Brilliant — thanks so much for making the time, especially with everything you’ve got going on. Really appreciated hearing your perspective — you’ve clearly got a thoughtful and forward-thinking take on using AI in your work. If anything else pops into your mind later on, feel free to reach out. Take care, and hope the rest of your day goes smoothly!",
+            "timestamp": "2025-08-01T04:19:01.844614Z"
+          }
+        ],
+        "sentimentTimeline": [
+          {
+            "timestamp": "2025-08-01T04:04:51.939Z",
+            "sentiment": 0.4
+          },
+          {
+            "timestamp": "2025-08-01T04:10:19.431Z",
+            "sentiment": 0.5
+          },
+          {
+            "timestamp": "2025-08-01T04:11:53.594Z",
+            "sentiment": 0.3
+          },
+          {
+            "timestamp": "2025-08-01T04:16:22.857Z",
+            "sentiment": 0.4
+          }
+        ],
+        "tokenUsage": 2400
+      }
+    }
+  ]
+}
