@@ -1,0 +1,9 @@
+# Logs
+logs/
+*.log
+
+# Database backups
+backups/
+
+# Local environment variables
+.env 
